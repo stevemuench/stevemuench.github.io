@@ -1,0 +1,20 @@
+{
+   "items" : [
+     {
+         "Country":"UK",
+         "PostalCode":"9THQRD",
+         "Rate": 0.20
+     },
+     {
+         "Country":"IT",
+         "PostalCode":"35141",
+         "Rate": 0.22
+     },
+     {
+         "Country":"US",
+         "PostalCode":"94549",
+         "Rate": 0.0925
+     }
+
+]
+}
