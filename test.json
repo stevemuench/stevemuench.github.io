@@ -1,0 +1,31 @@
+{
+    "api-name": "delombok-test-api",
+    "api-id": "delombok-001",
+    "api-version": "v1",
+    "api-resources": [
+        {
+            "resource-id": "delombok-resource-0",
+            "name": "delombok-resource-0",
+            "resource-path": "contextual/routing/{parameter-1}",
+            "path-parameters": [
+                {
+                    "parameter-name": "parameter-1",
+                    "parameter-type": "string",
+                    "is-record-id": true
+                }
+            ],
+            "cors-preflight-handling": "fabric",
+            "routing-ambiguity-resolution-strategy": "HTTP400BadRequest"
+        }
+    ],
+    "alternative-root-path": "routing",
+    "callback-registration-path": "/callback",
+    "api-events": [
+        {
+            "name": "createEvent",
+            "api-resource": "delombok-resource-0"
+        }
+    ],
+    "openapi-document-url": "https://acceptance-test/v1/....",
+    "id": "delombok-test-api7z5nh"
+}
