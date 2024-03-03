@@ -16,6 +16,25 @@
             ],
             "cors-preflight-handling": "fabric",
             "routing-ambiguity-resolution-strategy": "HTTP400BadRequest"
+        },
+        {
+            "resource-id": "delombok-resource-1",
+            "name": "delombok-resource-1",
+            "resource-path": "contextual/routing/{parameter-1}",
+            "path-parameters": [
+                {
+                    "parameter-name": "parameter-2",
+                    "parameter-type": "string",
+                    "is-record-id": true
+                },
+                {
+                    "parameter-name": "parameter-3",
+                    "parameter-type": "string",
+                    "is-record-id": true
+                }
+            ],
+            "cors-preflight-handling": "fabric",
+            "routing-ambiguity-resolution-strategy": "HTTP400BadRequest"
         }
     ],
     "alternative-root-path": "routing",

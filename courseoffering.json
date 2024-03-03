@@ -1,0 +1,1623 @@
+{
+    "openapi": "3.0.3",
+    "info": {
+        "title": "courseoffering",
+        "version": "v1",
+        "x-framework": {
+            "name": "Oracle-BOSS-BO",
+            "version": "1"
+        }
+    },
+    "servers": [
+        {
+            "url": "http://phoenix225302.dev3sub3phx.databasede3phx.oraclevcn.com:8000/api/boss/data/objects/demomodule/v1:2/$en"
+        }
+    ],
+    "paths": {
+        "/courseoffering": {
+            "get": {
+                "summary": "Get all",
+                "tags": [
+                    "courseoffering"
+                ],
+                "operationId": "List_courseoffering",
+                "parameters": [
+                    {
+                        "$ref": "#/components/parameters/_limit"
+                    },
+                    {
+                        "$ref": "#/components/parameters/_offset"
+                    },
+                    {
+                        "$ref": "#/components/parameters/_includeTotalItems"
+                    },
+                    {
+                        "$ref": "#/components/parameters/_filter"
+                    },
+                    {
+                        "$ref": "#/components/parameters/_sortBy"
+                    },
+                    {
+                        "$ref": "#/components/parameters/_fields"
+                    },
+                    {
+                        "$ref": "#/components/parameters/_effectiveDate"
+                    }
+                ],
+                "responses": {
+                    "default": {
+                        "$ref": "#/components/responses/courseoffering_collection-response"
+                    }
+                }
+            },
+            "post": {
+                "summary": "Create",
+                "tags": [
+                    "courseoffering"
+                ],
+                "operationId": "Create_courseoffering",
+                "requestBody": {
+                    "$ref": "#/components/requestBodies/courseoffering_post-item-request"
+                },
+                "responses": {
+                    "default": {
+                        "description": "no content"
+                    }
+                }
+            }
+        },
+        "/courseoffering/$query": {
+            "post": {
+                "summary": "Advanced query all",
+                "tags": [
+                    "courseoffering"
+                ],
+                "operationId": "AdvancedList_courseoffering",
+                "parameters": [
+                    {
+                        "$ref": "#/components/parameters/_effectiveDate"
+                    }
+                ],
+                "requestBody": {
+                    "$ref": "#/components/requestBodies/__root_query"
+                },
+                "responses": {
+                    "default": {
+                        "$ref": "#/components/responses/courseoffering_collection-response"
+                    }
+                }
+            }
+        },
+        "/courseoffering/{courseoffering_id}": {
+            "parameters": [
+                {
+                    "$ref": "#/components/parameters/courseoffering_id"
+                }
+            ],
+            "get": {
+                "summary": "Get",
+                "tags": [
+                    "courseoffering"
+                ],
+                "operationId": "Get_courseoffering",
+                "parameters": [
+                    {
+                        "$ref": "#/components/parameters/_fields"
+                    },
+                    {
+                        "$ref": "#/components/parameters/_effectiveDate"
+                    }
+                ],
+                "responses": {
+                    "default": {
+                        "$ref": "#/components/responses/courseoffering_item-response"
+                    }
+                }
+            },
+            "patch": {
+                "summary": "Update",
+                "tags": [
+                    "courseoffering"
+                ],
+                "operationId": "Update_courseoffering",
+                "parameters": [
+                    {
+                        "$ref": "#/components/parameters/_effectiveDate"
+                    }
+                ],
+                "requestBody": {
+                    "$ref": "#/components/requestBodies/courseoffering_patch-item-request"
+                },
+                "responses": {
+                    "default": {
+                        "description": "no content"
+                    }
+                }
+            },
+            "delete": {
+                "summary": "Delete",
+                "tags": [
+                    "courseoffering"
+                ],
+                "operationId": "Delete_courseoffering",
+                "parameters": [
+                    {
+                        "$ref": "#/components/parameters/_effectiveDate"
+                    }
+                ],
+                "responses": {
+                    "default": {
+                        "description": "no content"
+                    }
+                }
+            }
+        },
+        "/courseoffering/{courseoffering_id}/$query": {
+            "parameters": [
+                {
+                    "$ref": "#/components/parameters/courseoffering_id"
+                }
+            ],
+            "post": {
+                "summary": "Advanced query",
+                "tags": [
+                    "courseoffering"
+                ],
+                "operationId": "AdvancedGet_courseoffering",
+                "parameters": [
+                    {
+                        "$ref": "#/components/parameters/_effectiveDate"
+                    }
+                ],
+                "requestBody": {
+                    "$ref": "#/components/requestBodies/__item_query"
+                },
+                "responses": {
+                    "default": {
+                        "$ref": "#/components/responses/courseoffering_item-response"
+                    }
+                }
+            }
+        },
+        "/courseoffering/{courseoffering_id}/enrolledStudents": {
+            "parameters": [
+                {
+                    "$ref": "#/components/parameters/courseoffering_id"
+                }
+            ],
+            "get": {
+                "summary": "Get all",
+                "tags": [
+                    "courseoffering/enrolledStudents"
+                ],
+                "operationId": "List_courseoffering_enrolledStudents",
+                "parameters": [
+                    {
+                        "$ref": "#/components/parameters/_limit"
+                    },
+                    {
+                        "$ref": "#/components/parameters/_offset"
+                    },
+                    {
+                        "$ref": "#/components/parameters/_includeTotalItems"
+                    },
+                    {
+                        "$ref": "#/components/parameters/_filter"
+                    },
+                    {
+                        "$ref": "#/components/parameters/_sortBy"
+                    },
+                    {
+                        "$ref": "#/components/parameters/_fields"
+                    },
+                    {
+                        "$ref": "#/components/parameters/_effectiveDate"
+                    }
+                ],
+                "responses": {
+                    "default": {
+                        "$ref": "#/components/responses/courseoffering-enrolledStudents_collection-response"
+                    }
+                }
+            },
+            "post": {
+                "summary": "Create",
+                "tags": [
+                    "courseoffering/enrolledStudents"
+                ],
+                "operationId": "Create_courseoffering_enrolledStudents",
+                "requestBody": {
+                    "$ref": "#/components/requestBodies/courseoffering-enrolledStudents_post-item-request"
+                },
+                "responses": {
+                    "default": {
+                        "description": "no content"
+                    }
+                }
+            }
+        },
+        "/courseoffering/{courseoffering_id}/enrolledStudents/$query": {
+            "parameters": [
+                {
+                    "$ref": "#/components/parameters/courseoffering_id"
+                }
+            ],
+            "post": {
+                "summary": "Advanced query all",
+                "tags": [
+                    "courseoffering/enrolledStudents"
+                ],
+                "operationId": "AdvancedList_courseoffering_enrolledStudents",
+                "parameters": [
+                    {
+                        "$ref": "#/components/parameters/_effectiveDate"
+                    }
+                ],
+                "requestBody": {
+                    "$ref": "#/components/requestBodies/__collection_query"
+                },
+                "responses": {
+                    "default": {
+                        "$ref": "#/components/responses/courseoffering-enrolledStudents_collection-response"
+                    }
+                }
+            }
+        },
+        "/courseoffering/{courseoffering_id}/enrolledStudents/{courseoffering-enrolledStudents_id}": {
+            "parameters": [
+                {
+                    "$ref": "#/components/parameters/courseoffering_id"
+                },
+                {
+                    "$ref": "#/components/parameters/courseoffering-enrolledStudents_id"
+                }
+            ],
+            "get": {
+                "summary": "Get",
+                "tags": [
+                    "courseoffering/enrolledStudents"
+                ],
+                "operationId": "Get_courseoffering_enrolledStudents",
+                "parameters": [
+                    {
+                        "$ref": "#/components/parameters/_fields"
+                    },
+                    {
+                        "$ref": "#/components/parameters/_effectiveDate"
+                    }
+                ],
+                "responses": {
+                    "default": {
+                        "$ref": "#/components/responses/courseoffering-enrolledStudents_item-response"
+                    }
+                }
+            },
+            "patch": {
+                "summary": "Update",
+                "tags": [
+                    "courseoffering/enrolledStudents"
+                ],
+                "operationId": "Update_courseoffering_enrolledStudents",
+                "parameters": [
+                    {
+                        "$ref": "#/components/parameters/_effectiveDate"
+                    }
+                ],
+                "requestBody": {
+                    "$ref": "#/components/requestBodies/courseoffering-enrolledStudents_patch-item-request"
+                },
+                "responses": {
+                    "default": {
+                        "description": "no content"
+                    }
+                }
+            },
+            "delete": {
+                "summary": "Delete",
+                "tags": [
+                    "courseoffering/enrolledStudents"
+                ],
+                "operationId": "Delete_courseoffering_enrolledStudents",
+                "parameters": [
+                    {
+                        "$ref": "#/components/parameters/_effectiveDate"
+                    }
+                ],
+                "responses": {
+                    "default": {
+                        "description": "no content"
+                    }
+                }
+            }
+        },
+        "/courseoffering/{courseoffering_id}/enrolledStudents/{courseoffering-enrolledStudents_id}/$query": {
+            "parameters": [
+                {
+                    "$ref": "#/components/parameters/courseoffering_id"
+                },
+                {
+                    "$ref": "#/components/parameters/courseoffering-enrolledStudents_id"
+                }
+            ],
+            "post": {
+                "summary": "Advanced query",
+                "tags": [
+                    "courseoffering/enrolledStudents"
+                ],
+                "operationId": "AdvancedGet_courseoffering_enrolledStudents",
+                "parameters": [
+                    {
+                        "$ref": "#/components/parameters/_effectiveDate"
+                    }
+                ],
+                "requestBody": {
+                    "$ref": "#/components/requestBodies/__item_query"
+                },
+                "responses": {
+                    "default": {
+                        "$ref": "#/components/responses/courseoffering-enrolledStudents_item-response"
+                    }
+                }
+            }
+        },
+        "/courseoffering/$views/withDescriptions": {
+            "get": {
+                "summary": "withDescriptions",
+                "tags": [
+                    "courseoffering"
+                ],
+                "operationId": "List_courseoffering$withDescriptions",
+                "parameters": [
+                    {
+                        "$ref": "#/components/parameters/_limit"
+                    },
+                    {
+                        "$ref": "#/components/parameters/_offset"
+                    },
+                    {
+                        "$ref": "#/components/parameters/_includeTotalItems"
+                    },
+                    {
+                        "$ref": "#/components/parameters/_filter"
+                    },
+                    {
+                        "$ref": "#/components/parameters/_sortBy"
+                    },
+                    {
+                        "$ref": "#/components/parameters/_fields"
+                    },
+                    {
+                        "$ref": "#/components/parameters/_effectiveDate"
+                    }
+                ],
+                "responses": {
+                    "default": {
+                        "$ref": "#/components/responses/courseoffering_view-withDescriptions"
+                    }
+                }
+            }
+        },
+        "/courseoffering/$views/withDescriptions/$query": {
+            "post": {
+                "summary": "withDescriptions",
+                "tags": [
+                    "courseoffering"
+                ],
+                "operationId": "AdvancedList_courseoffering$withDescriptions",
+                "parameters": [
+                    {
+                        "$ref": "#/components/parameters/_effectiveDate"
+                    }
+                ],
+                "requestBody": {
+                    "$ref": "#/components/requestBodies/__root_query"
+                },
+                "responses": {
+                    "default": {
+                        "$ref": "#/components/responses/courseoffering_view-withDescriptions"
+                    }
+                }
+            }
+        },
+        "/courseoffering/$bulk": {
+            "post": {
+                "summary": "BulkWrite",
+                "tags": [
+                    "courseoffering"
+                ],
+                "operationId": "BulkWrite_courseoffering",
+                "parameters": [
+                    {
+                        "$ref": "#/components/parameters/_effectiveDate"
+                    }
+                ],
+                "requestBody": {
+                    "$ref": "#/components/requestBodies/courseoffering_bulk-request"
+                },
+                "responses": {
+                    "default": {
+                        "$ref": "#/components/responses/courseoffering_bulk-response"
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "__collection_context": {
+                "type": "object",
+                "properties": {
+                    "hasMore": {
+                        "type": "boolean"
+                    },
+                    "totalItems": {
+                        "type": "object",
+                        "properties": {
+                            "value": {
+                                "type": "integer"
+                            },
+                            "qualifier": {
+                                "type": "string",
+                                "enum": [
+                                    "eq",
+                                    "gt",
+                                    "est",
+                                    "err"
+                                ]
+                            }
+                        }
+                    }
+                }
+            },
+            "__busObj_context": {
+                "type": "object",
+                "properties": {
+                    "$id": {
+                        "type": "string"
+                    },
+                    "$context": {
+                        "type": "object",
+                        "properties": {
+                            "etag": {
+                                "type": "string"
+                            },
+                            "links": {
+                                "type": "object",
+                                "properties": {
+                                    "$self": {
+                                        "type": "object",
+                                        "properties": {
+                                            "href": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    }
+                                },
+                                "readOnly": true
+                            }
+                        }
+                    }
+                }
+            },
+            "demomodule.Course_item": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": "string",
+                        "format": "big-integer",
+                        "x-searchable": true,
+                        "x-sortable": true,
+                        "readOnly": true
+                    },
+                    "name": {
+                        "type": "string",
+                        "nullable": true,
+                        "x-searchable": true,
+                        "x-sortable": true
+                    }
+                },
+                "x-primaryKey": [
+                    "id"
+                ]
+            },
+            "demomodule.Teacher_item": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": "string",
+                        "format": "big-integer",
+                        "x-searchable": true,
+                        "x-sortable": true,
+                        "readOnly": true
+                    },
+                    "name": {
+                        "type": "string",
+                        "nullable": true,
+                        "x-searchable": true,
+                        "x-sortable": true
+                    }
+                },
+                "x-primaryKey": [
+                    "id"
+                ]
+            },
+            "demomodule.CourseOffering_item": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": "string",
+                        "format": "big-integer",
+                        "x-searchable": true,
+                        "x-sortable": true,
+                        "readOnly": true
+                    },
+                    "courseId": {
+                        "type": "string",
+                        "format": "big-integer",
+                        "nullable": true,
+                        "x-searchable": true,
+                        "x-sortable": true
+                    },
+                    "teacherId": {
+                        "type": "string",
+                        "format": "big-integer",
+                        "nullable": true,
+                        "x-searchable": true,
+                        "x-sortable": true
+                    },
+                    "year": {
+                        "type": "integer",
+                        "format": "int32",
+                        "nullable": true,
+                        "x-searchable": true,
+                        "x-sortable": true
+                    },
+                    "semester": {
+                        "type": "string",
+                        "nullable": true,
+                        "x-searchable": true,
+                        "x-sortable": true
+                    },
+                    "course": {
+                        "allOf": [
+                            {
+                                "$ref": "#/components/schemas/demomodule.Course_item"
+                            },
+                            {
+                                "$ref": "#/components/schemas/__busObj_context"
+                            }
+                        ]
+                    },
+                    "teacher": {
+                        "allOf": [
+                            {
+                                "$ref": "#/components/schemas/demomodule.Teacher_item"
+                            },
+                            {
+                                "$ref": "#/components/schemas/__busObj_context"
+                            }
+                        ]
+                    }
+                },
+                "x-primaryKey": [
+                    "id"
+                ]
+            },
+            "demomodule.Student_item": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": "string",
+                        "format": "big-integer",
+                        "x-searchable": true,
+                        "x-sortable": true,
+                        "readOnly": true
+                    },
+                    "name": {
+                        "type": "string",
+                        "nullable": true,
+                        "x-searchable": true,
+                        "x-sortable": true
+                    }
+                },
+                "x-primaryKey": [
+                    "id"
+                ]
+            },
+            "demomodule.CourseEnrollment_item": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": "string",
+                        "format": "big-integer",
+                        "x-searchable": true,
+                        "x-sortable": true,
+                        "readOnly": true
+                    },
+                    "courseOfferingId": {
+                        "type": "string",
+                        "format": "big-integer",
+                        "nullable": true
+                    },
+                    "studentId": {
+                        "type": "string",
+                        "format": "big-integer",
+                        "nullable": true
+                    },
+                    "courseOffering": {
+                        "allOf": [
+                            {
+                                "$ref": "#/components/schemas/demomodule.CourseOffering_item"
+                            },
+                            {
+                                "$ref": "#/components/schemas/__busObj_context"
+                            }
+                        ]
+                    },
+                    "student": {
+                        "allOf": [
+                            {
+                                "$ref": "#/components/schemas/demomodule.Student_item"
+                            },
+                            {
+                                "$ref": "#/components/schemas/__busObj_context"
+                            }
+                        ]
+                    }
+                },
+                "x-primaryKey": [
+                    "id"
+                ]
+            },
+            "courseoffering-enrolledStudents_item-response": {
+                "allOf": [
+                    {
+                        "$ref": "#/components/schemas/demomodule.CourseEnrollment_item"
+                    },
+                    {
+                        "$ref": "#/components/schemas/__busObj_context"
+                    }
+                ]
+            },
+            "courseoffering-enrolledStudents": {
+                "allOf": [
+                    {
+                        "$ref": "#/components/schemas/__collection_context"
+                    },
+                    {
+                        "type": "object",
+                        "properties": {
+                            "items": {
+                                "type": "array",
+                                "items": {
+                                    "$ref": "#/components/schemas/courseoffering-enrolledStudents_item-response"
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            "courseoffering_item-response": {
+                "allOf": [
+                    {
+                        "$ref": "#/components/schemas/demomodule.CourseOffering_item"
+                    },
+                    {
+                        "$ref": "#/components/schemas/__busObj_context"
+                    },
+                    {
+                        "type": "object",
+                        "properties": {
+                            "enrolledStudents": {
+                                "$ref": "#/components/schemas/courseoffering-enrolledStudents"
+                            }
+                        }
+                    }
+                ]
+            },
+            "courseoffering_view-default": {
+                "allOf": [
+                    {
+                        "$ref": "#/components/schemas/__collection_context"
+                    },
+                    {
+                        "type": "object",
+                        "properties": {
+                            "items": {
+                                "type": "array",
+                                "items": {
+                                    "$ref": "#/components/schemas/courseoffering_item-response"
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            "demomodule.CourseOffering_post-item": {
+                "allOf": [
+                    {
+                        "$ref": "#/components/schemas/demomodule.CourseOffering_item"
+                    },
+                    {
+                        "type": "object",
+                        "properties": {
+                            "course": {
+                                "oneOf": [
+                                    {
+                                        "type": "object",
+                                        "properties": {
+                                            "id": {
+                                                "$ref": "#/components/schemas/demomodule.Course_item/properties/id"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "$ref": "#/components/schemas/__busObj_context"
+                                    }
+                                ]
+                            },
+                            "teacher": {
+                                "oneOf": [
+                                    {
+                                        "type": "object",
+                                        "properties": {
+                                            "id": {
+                                                "$ref": "#/components/schemas/demomodule.Teacher_item/properties/id"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "$ref": "#/components/schemas/__busObj_context"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            },
+            "demomodule.CourseEnrollment_post-item": {
+                "allOf": [
+                    {
+                        "$ref": "#/components/schemas/demomodule.CourseEnrollment_item"
+                    },
+                    {
+                        "type": "object",
+                        "properties": {
+                            "courseOffering": {
+                                "oneOf": [
+                                    {
+                                        "type": "object",
+                                        "properties": {
+                                            "id": {
+                                                "$ref": "#/components/schemas/demomodule.CourseOffering_item/properties/id"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "$ref": "#/components/schemas/__busObj_context"
+                                    }
+                                ]
+                            },
+                            "student": {
+                                "oneOf": [
+                                    {
+                                        "type": "object",
+                                        "properties": {
+                                            "id": {
+                                                "$ref": "#/components/schemas/demomodule.Student_item/properties/id"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "$ref": "#/components/schemas/__busObj_context"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            },
+            "courseoffering-enrolledStudents_post-item-request": {
+                "allOf": [
+                    {
+                        "$ref": "#/components/schemas/demomodule.CourseEnrollment_post-item"
+                    },
+                    {
+                        "$ref": "#/components/schemas/__busObj_context"
+                    }
+                ]
+            },
+            "courseoffering_post-item-request": {
+                "allOf": [
+                    {
+                        "$ref": "#/components/schemas/demomodule.CourseOffering_post-item"
+                    },
+                    {
+                        "$ref": "#/components/schemas/__busObj_context"
+                    },
+                    {
+                        "type": "object",
+                        "properties": {
+                            "enrolledStudents": {
+                                "type": "object",
+                                "properties": {
+                                    "items": {
+                                        "type": "array",
+                                        "items": {
+                                            "$ref": "#/components/schemas/courseoffering-enrolledStudents_post-item-request"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            "__item_query": {
+                "type": "object",
+                "properties": {
+                    "fields": {
+                        "type": "array",
+                        "description": "Restricts the resource fields. Only the specified fields and mandatory system fields are returned.",
+                        "items": {
+                            "type": "string"
+                        }
+                    },
+                    "subTypes": {
+                        "type": "object",
+                        "description": "Maps discriminator values (as defined in subtypes) to query objects specific to corresponding subtypes. Subtype-specific query objects support a subset(fields,accessors,filter) of the query capabilities when compared to the base."
+                    },
+                    "accessors": {
+                        "type": "object",
+                        "description": "Maps accessor names to query objects specific to corresponding accessors. Query object for each accessor supports query capabilities similar to the base."
+                    }
+                }
+            },
+            "__collection_query": {
+                "allOf": [
+                    {
+                        "$ref": "#/components/schemas/__item_query"
+                    },
+                    {
+                        "type": "object",
+                        "properties": {
+                            "collection": {
+                                "type": "object",
+                                "description": "Defines query criteria that can be applied on a resource collection.",
+                                "properties": {
+                                    "filter": {
+                                        "type": "string",
+                                        "description": "The resource collection will be queried using the specified filter condition."
+                                    },
+                                    "limit": {
+                                        "type": "integer",
+                                        "description": "Restricts the number of resource items returned inside the resource collection. If the limit exceeds the resource count then the framework will only return the available resource items."
+                                    },
+                                    "offset": {
+                                        "type": "integer",
+                                        "description": "Defines the starting position of the resource collection. If offset exceeds the resource count then no resource items are returned."
+                                    },
+                                    "includeTotalItems": {
+                                        "type": "boolean",
+                                        "description": "Specifies whether the server should estimate the total number of records for a given query and include the count in the response."
+                                    },
+                                    "sortBy": {
+                                        "type": "array",
+                                        "description": "Orders a resource collection based on the specified fields.",
+                                        "items": {
+                                            "oneOf": [
+                                                {
+                                                    "type": "string",
+                                                    "description": "Name of field based on which sorting will happen. Order is ascending."
+                                                },
+                                                {
+                                                    "type": "object",
+                                                    "description": "Object with single entry. Key must be name of field based on which sorting will happen. Value must be either asc or desc to decide the sort order."
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "privilege": {
+                                        "type": "string",
+                                        "description": "Represents the privilege or action required to check for while serving a request to access a resource."
+                                    }
+                                },
+                                "additionalProperties": false
+                            }
+                        }
+                    }
+                ]
+            },
+            "__root_query": {
+                "allOf": [
+                    {
+                        "$ref": "#/components/schemas/__collection_query"
+                    },
+                    {
+                        "type": "object",
+                        "properties": {
+                            "parameters": {
+                                "type": "object",
+                                "description": "Values to be applied in a parameterized filter specific to the view."
+                            }
+                        }
+                    }
+                ]
+            },
+            "demomodule.CourseOffering_patch-item": {
+                "allOf": [
+                    {
+                        "$ref": "#/components/schemas/demomodule.CourseOffering_item"
+                    },
+                    {
+                        "type": "object",
+                        "properties": {
+                            "course": {
+                                "oneOf": [
+                                    {
+                                        "type": "object",
+                                        "properties": {
+                                            "id": {
+                                                "$ref": "#/components/schemas/demomodule.Course_item/properties/id"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "$ref": "#/components/schemas/__busObj_context"
+                                    },
+                                    {
+                                        "type": "object",
+                                        "nullable": true,
+                                        "additionalProperties": false
+                                    }
+                                ]
+                            },
+                            "teacher": {
+                                "oneOf": [
+                                    {
+                                        "type": "object",
+                                        "properties": {
+                                            "id": {
+                                                "$ref": "#/components/schemas/demomodule.Teacher_item/properties/id"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "$ref": "#/components/schemas/__busObj_context"
+                                    },
+                                    {
+                                        "type": "object",
+                                        "nullable": true,
+                                        "additionalProperties": false
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            },
+            "demomodule.CourseEnrollment_patch-item": {
+                "allOf": [
+                    {
+                        "$ref": "#/components/schemas/demomodule.CourseEnrollment_item"
+                    },
+                    {
+                        "type": "object",
+                        "properties": {
+                            "courseOffering": {
+                                "oneOf": [
+                                    {
+                                        "type": "object",
+                                        "properties": {
+                                            "id": {
+                                                "$ref": "#/components/schemas/demomodule.CourseOffering_item/properties/id"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "$ref": "#/components/schemas/__busObj_context"
+                                    },
+                                    {
+                                        "type": "object",
+                                        "nullable": true,
+                                        "additionalProperties": false
+                                    }
+                                ]
+                            },
+                            "student": {
+                                "oneOf": [
+                                    {
+                                        "type": "object",
+                                        "properties": {
+                                            "id": {
+                                                "$ref": "#/components/schemas/demomodule.Student_item/properties/id"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "$ref": "#/components/schemas/__busObj_context"
+                                    },
+                                    {
+                                        "type": "object",
+                                        "nullable": true,
+                                        "additionalProperties": false
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            },
+            "courseoffering-enrolledStudents_patch-item-request": {
+                "allOf": [
+                    {
+                        "$ref": "#/components/schemas/demomodule.CourseEnrollment_patch-item"
+                    },
+                    {
+                        "$ref": "#/components/schemas/__busObj_context"
+                    }
+                ]
+            },
+            "courseoffering_patch-item-request": {
+                "allOf": [
+                    {
+                        "$ref": "#/components/schemas/demomodule.CourseOffering_patch-item"
+                    },
+                    {
+                        "$ref": "#/components/schemas/__busObj_context"
+                    },
+                    {
+                        "type": "object",
+                        "properties": {
+                            "enrolledStudents": {
+                                "type": "object",
+                                "properties": {
+                                    "items": {
+                                        "type": "array",
+                                        "items": {
+                                            "$ref": "#/components/schemas/courseoffering-enrolledStudents_patch-item-request"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            "courseoffering_view-withDescriptions": {
+                "allOf": [
+                    {
+                        "$ref": "#/components/schemas/__collection_context"
+                    },
+                    {
+                        "type": "object",
+                        "properties": {
+                            "items": {
+                                "type": "array",
+                                "items": {
+                                    "allOf": [
+                                        {
+                                            "$ref": "#/components/schemas/__busObj_context"
+                                        },
+                                        {
+                                            "type": "object",
+                                            "properties": {
+                                                "id": {
+                                                    "$ref": "#/components/schemas/demomodule.CourseOffering_item/properties/id"
+                                                },
+                                                "year": {
+                                                    "$ref": "#/components/schemas/demomodule.CourseOffering_item/properties/year"
+                                                },
+                                                "semester": {
+                                                    "$ref": "#/components/schemas/demomodule.CourseOffering_item/properties/semester"
+                                                },
+                                                "course": {
+                                                    "allOf": [
+                                                        {
+                                                            "$ref": "#/components/schemas/__busObj_context"
+                                                        },
+                                                        {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "id": {
+                                                                    "$ref": "#/components/schemas/demomodule.Course_item/properties/id"
+                                                                },
+                                                                "name": {
+                                                                    "$ref": "#/components/schemas/demomodule.Course_item/properties/name"
+                                                                }
+                                                            }
+                                                        }
+                                                    ]
+                                                },
+                                                "teacher": {
+                                                    "allOf": [
+                                                        {
+                                                            "$ref": "#/components/schemas/__busObj_context"
+                                                        },
+                                                        {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "id": {
+                                                                    "$ref": "#/components/schemas/demomodule.Teacher_item/properties/id"
+                                                                },
+                                                                "name": {
+                                                                    "$ref": "#/components/schemas/demomodule.Teacher_item/properties/name"
+                                                                }
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            "courseoffering-enrolledStudents_bulk-item-request": {
+                "allOf": [
+                    {
+                        "$ref": "#/components/schemas/demomodule.CourseEnrollment_item"
+                    },
+                    {
+                        "type": "object",
+                        "properties": {
+                            "$operation": {
+                                "type": "string",
+                                "enum": [
+                                    "CREATE",
+                                    "UPDATE",
+                                    "DELETE",
+                                    "MERGE"
+                                ]
+                            },
+                            "$context": {
+                                "$ref": "#/components/schemas/__busObj_context/properties/%24context"
+                            }
+                        }
+                    },
+                    {
+                        "oneOf": [
+                            {
+                                "type": "object",
+                                "properties": {
+                                    "$id": {
+                                        "$ref": "#/components/schemas/__busObj_context/properties/%24id"
+                                    }
+                                }
+                            },
+                            {
+                                "type": "object",
+                                "properties": {
+                                    "$lookupBy": {
+                                        "type": "object",
+                                        "properties": {
+                                            "id": {
+                                                "$ref": "#/components/schemas/demomodule.CourseEnrollment_item/properties/id"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "courseoffering_bulk-item-request": {
+                "allOf": [
+                    {
+                        "$ref": "#/components/schemas/demomodule.CourseOffering_item"
+                    },
+                    {
+                        "type": "object",
+                        "properties": {
+                            "$operation": {
+                                "type": "string",
+                                "enum": [
+                                    "CREATE",
+                                    "UPDATE",
+                                    "DELETE",
+                                    "MERGE"
+                                ]
+                            },
+                            "$context": {
+                                "$ref": "#/components/schemas/__busObj_context/properties/%24context"
+                            }
+                        }
+                    },
+                    {
+                        "oneOf": [
+                            {
+                                "type": "object",
+                                "properties": {
+                                    "$id": {
+                                        "$ref": "#/components/schemas/__busObj_context/properties/%24id"
+                                    }
+                                }
+                            },
+                            {
+                                "type": "object",
+                                "properties": {
+                                    "$lookupBy": {
+                                        "type": "object",
+                                        "properties": {
+                                            "id": {
+                                                "$ref": "#/components/schemas/demomodule.CourseOffering_item/properties/id"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "type": "object",
+                        "properties": {
+                            "enrolledStudents": {
+                                "type": "object",
+                                "properties": {
+                                    "items": {
+                                        "type": "array",
+                                        "items": {
+                                            "$ref": "#/components/schemas/courseoffering-enrolledStudents_bulk-item-request"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            "courseoffering_bulk-request": {
+                "type": "object",
+                "properties": {
+                    "items": {
+                        "type": "array",
+                        "items": {
+                            "$ref": "#/components/schemas/courseoffering_bulk-item-request"
+                        }
+                    }
+                }
+            }
+        },
+        "responses": {
+            "courseoffering_collection-response": {
+                "description": "An array of items response",
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "#/components/schemas/courseoffering_view-default"
+                        }
+                    }
+                }
+            },
+            "courseoffering_item-response": {
+                "description": "A single item response",
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "#/components/schemas/courseoffering_item-response"
+                        }
+                    }
+                },
+                "links": {
+                    "$self": {
+                        "operationRef": "#/paths/~1courseoffering~1{courseoffering_id}/get",
+                        "parameters": {
+                            "courseoffering_id": "$request.path.courseoffering_id"
+                        }
+                    },
+                    "course": {
+                        "operationRef": "http://phoenix225302.dev3sub3phx.databasede3phx.oraclevcn.com:8000/api/boss/data/objects/demomodule/v1:2/$en/$openapi/course#/paths/~1course~1{course_id}/get",
+                        "parameters": {
+                            "course_id": "$response.body#/course/$id"
+                        }
+                    },
+                    "teacher": {
+                        "operationRef": "http://phoenix225302.dev3sub3phx.databasede3phx.oraclevcn.com:8000/api/boss/data/objects/demomodule/v1:2/$en/$openapi/teacher#/paths/~1teacher~1{teacher_id}/get",
+                        "parameters": {
+                            "teacher_id": "$response.body#/teacher/$id"
+                        }
+                    }
+                }
+            },
+            "courseoffering-enrolledStudents_collection-response": {
+                "description": "An array of items response",
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "#/components/schemas/courseoffering-enrolledStudents"
+                        }
+                    }
+                }
+            },
+            "courseoffering-enrolledStudents_item-response": {
+                "description": "A single item response",
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "#/components/schemas/courseoffering-enrolledStudents_item-response"
+                        }
+                    }
+                },
+                "links": {
+                    "$self": {
+                        "operationRef": "#/paths/~1courseoffering~1{courseoffering_id}~1enrolledStudents~1{courseoffering-enrolledStudents_id}/get",
+                        "parameters": {
+                            "courseoffering_id": "$request.path.courseoffering_id",
+                            "courseoffering-enrolledStudents_id": "$request.path.courseoffering-enrolledStudents_id"
+                        }
+                    },
+                    "courseOffering": {
+                        "operationRef": "http://phoenix225302.dev3sub3phx.databasede3phx.oraclevcn.com:8000/api/boss/data/objects/demomodule/v1:2/$en/$openapi/courseoffering#/paths/~1courseoffering~1{courseoffering_id}/get",
+                        "parameters": {
+                            "courseoffering_id": "$response.body#/courseOffering/$id"
+                        }
+                    },
+                    "student": {
+                        "operationRef": "http://phoenix225302.dev3sub3phx.databasede3phx.oraclevcn.com:8000/api/boss/data/objects/demomodule/v1:2/$en/$openapi/student#/paths/~1student~1{student_id}/get",
+                        "parameters": {
+                            "student_id": "$response.body#/student/$id"
+                        }
+                    }
+                }
+            },
+            "courseoffering_view-withDescriptions": {
+                "description": "Successful response of retrieving view withDescriptions for resource courseoffering",
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "#/components/schemas/courseoffering_view-withDescriptions"
+                        }
+                    }
+                }
+            },
+            "courseoffering_bulk-response": {
+                "description": "Bulk response",
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "allOf": [
+                                {
+                                    "type": "object",
+                                    "properties": {
+                                        "$statusCode": {
+                                            "type": "integer"
+                                        }
+                                    }
+                                },
+                                {
+                                    "$ref": "#/components/schemas/__busObj_context"
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "requestBodies": {
+            "courseoffering_post-item-request": {
+                "description": "Request to post an item",
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "#/components/schemas/courseoffering_post-item-request"
+                        }
+                    }
+                },
+                "x-links": {
+                    "$self": {
+                        "$ref": "#/components/responses/courseoffering_item-response/links/%24self"
+                    },
+                    "course": {
+                        "$ref": "#/components/responses/courseoffering_item-response/links/course"
+                    },
+                    "teacher": {
+                        "$ref": "#/components/responses/courseoffering_item-response/links/teacher"
+                    }
+                }
+            },
+            "__root_query": {
+                "description": "Query over POST request on a root resource collection",
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "#/components/schemas/__root_query"
+                        }
+                    }
+                }
+            },
+            "courseoffering_patch-item-request": {
+                "description": "Request to patch an item",
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "#/components/schemas/courseoffering_patch-item-request"
+                        }
+                    }
+                },
+                "x-links": {
+                    "$self": {
+                        "$ref": "#/components/responses/courseoffering_item-response/links/%24self"
+                    },
+                    "course": {
+                        "$ref": "#/components/responses/courseoffering_item-response/links/course"
+                    },
+                    "teacher": {
+                        "$ref": "#/components/responses/courseoffering_item-response/links/teacher"
+                    }
+                }
+            },
+            "__item_query": {
+                "description": "Query over POST request on a item",
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "#/components/schemas/__item_query"
+                        }
+                    }
+                }
+            },
+            "courseoffering-enrolledStudents_post-item-request": {
+                "description": "Request to post an item",
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "#/components/schemas/courseoffering-enrolledStudents_post-item-request"
+                        }
+                    }
+                },
+                "x-links": {
+                    "$self": {
+                        "$ref": "#/components/responses/courseoffering-enrolledStudents_item-response/links/%24self"
+                    },
+                    "courseOffering": {
+                        "$ref": "#/components/responses/courseoffering-enrolledStudents_item-response/links/courseOffering"
+                    },
+                    "student": {
+                        "$ref": "#/components/responses/courseoffering-enrolledStudents_item-response/links/student"
+                    }
+                }
+            },
+            "__collection_query": {
+                "description": "Query over POST request on a child resource collection",
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "#/components/schemas/__collection_query"
+                        }
+                    }
+                }
+            },
+            "courseoffering-enrolledStudents_patch-item-request": {
+                "description": "Request to patch an item",
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "#/components/schemas/courseoffering-enrolledStudents_patch-item-request"
+                        }
+                    }
+                },
+                "x-links": {
+                    "$self": {
+                        "$ref": "#/components/responses/courseoffering-enrolledStudents_item-response/links/%24self"
+                    },
+                    "courseOffering": {
+                        "$ref": "#/components/responses/courseoffering-enrolledStudents_item-response/links/courseOffering"
+                    },
+                    "student": {
+                        "$ref": "#/components/responses/courseoffering-enrolledStudents_item-response/links/student"
+                    }
+                }
+            },
+            "courseoffering_bulk-request": {
+                "description": "Bulk request",
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "#/components/schemas/courseoffering_bulk-request"
+                        }
+                    }
+                }
+            }
+        },
+        "parameters": {
+            "_limit": {
+                "name": "$limit",
+                "in": "query",
+                "schema": {
+                    "type": "integer",
+                    "format": "int32",
+                    "default": 25
+                },
+                "required": false,
+                "description": "Restricts the number of resource items returned inside the resource collection. If the limit exceeds the resource count then the framework will only return the available resource items."
+            },
+            "_offset": {
+                "name": "$offset",
+                "in": "query",
+                "schema": {
+                    "type": "integer",
+                    "format": "int32",
+                    "default": 0
+                },
+                "required": false,
+                "description": "Defines the starting position of the resource collection. If offset exceeds the resource count then no resource items are returned."
+            },
+            "_includeTotalItems": {
+                "name": "$includeTotalItems",
+                "in": "query",
+                "schema": {
+                    "type": "boolean"
+                },
+                "required": false,
+                "description": "Specifies whether the server should estimate the total number of records for a given query and include the count in the response."
+            },
+            "_filter": {
+                "name": "$filter",
+                "in": "query",
+                "schema": {
+                    "type": "string"
+                },
+                "required": false,
+                "description": "The resource collection will be queried using the specified filter condition."
+            },
+            "_sortBy": {
+                "name": "$sortBy",
+                "in": "query",
+                "schema": {
+                    "type": "string"
+                },
+                "required": false,
+                "description": "Orders a resource collection based on the specified fields. The parameter value is a comma-separated string of field names, each optionally followed by a colon and \"asc\" (default) or \"desc\"."
+            },
+            "_fields": {
+                "name": "$fields",
+                "in": "query",
+                "schema": {
+                    "type": "string"
+                },
+                "required": false,
+                "description": "Restricts the resource fields. Only the specified fields and mandatory system fields are returned."
+            },
+            "_effectiveDate": {
+                "name": "$effectiveDate",
+                "in": "query",
+                "schema": {
+                    "type": "string",
+                    "format": "date"
+                },
+                "required": false,
+                "description": "Effective date value in the ISO 8601 date format 'YYYY-MM-DD'. This date is required by business logic to search for effective-dated business objects."
+            },
+            "courseoffering_id": {
+                "name": "courseoffering_id",
+                "in": "path",
+                "schema": {
+                    "type": "string"
+                },
+                "required": true,
+                "description": "This path parameter maps to the following field defined in the courseoffering REST resource:<br><ol><li>id</li></ol>"
+            },
+            "courseoffering-enrolledStudents_id": {
+                "name": "courseoffering-enrolledStudents_id",
+                "in": "path",
+                "schema": {
+                    "type": "string"
+                },
+                "required": true,
+                "description": "This path parameter maps to the following field defined in the courseoffering/enrolledStudents REST resource:<br><ol><li>id</li></ol>"
+            }
+        }
+    },
+    "tags": [
+        {
+            "name": "courseoffering"
+        },
+        {
+            "name": "courseoffering/enrolledStudents"
+        }
+    ]
+}
