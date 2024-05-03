@@ -1,0 +1,23 @@
+{ "_id":21,
+  "name":"Building Oracle XML Applications",
+  "description":"Master Oracle using XML, SQL, XSLT, and XSQL pages",
+  "price":29.45,
+  "available":"2024-03-04",
+  "categoryId":1,
+  "category":"BOOKS",
+  "stock":[
+    { "thingStockId":221,
+      "quantity":11,
+      "warehouseId":1,
+      "warehouse":"LAS VEGAS"}, 
+    { "thingStockId":224,
+      "quantity":22,
+      "warehouseId":2,
+      "warehouse":"SEATTLE"},
+    { "thingStockId":225,
+      "quantity":33,
+      "warehouseId":3,
+      "warehouse":"BALTIMORE"}
+   ],
+   "_metadata":{ "etag":"2EA7CCB8CA550DCAE2E0180D61267D9F",
+                 "asof":"0000000000BF5695"}}
