@@ -14,6 +14,11 @@
          "Country":"US",
          "PostalCode":"94549",
          "Rate": 0.0925
+     },
+     {
+         "Country":"US",
+         "PostalCode":"94101",
+         "Rate": 0.0875
      }
 
 ]
