@@ -1,0 +1,19 @@
+{
+    "name": "Matteo Loves Bannas",
+    "$id": "34,1",
+    "$context": {
+        "links": {
+            "$self": {
+                "href": "http://servername/api/boss/data/objects/productreferences/v1/cxprstories/34%2C1"
+            }
+        }
+    },
+    "storyTags": {
+        "items": [],
+        "hasMore": false
+    },
+    "storyAttributes": {
+        "items": [],
+        "hasMore": false
+    }
+}
