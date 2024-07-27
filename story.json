@@ -1,0 +1,327 @@
+{
+    "name": "asdasd",
+    "$id": "1035,1",
+    "$context": {
+        "links": {
+            "$self": {
+                "href": "http://servername/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1"
+            }
+        }
+    },
+    "storyTags": {
+        "items": [
+            {
+                "tagId": "3",
+                "$id": "1011",
+                "$context": {
+                    "links": {
+                        "$self": {
+                            "href": "http://servername/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyTags/1011"
+                        }
+                    }
+                },
+                "tag": {
+                    "tag": "Asia Pacific",
+                    "displayName": "Asia Pacific",
+                    "$id": "3",
+                    "$context": {
+                        "links": {
+                            "$self": {
+                                "href": "http://servername/api/boss/data/objects/productreferences/v1/cxprtags/3"
+                            }
+                        }
+                    },
+                    "tagCategory": {
+                        "name": "REGION",
+                        "$id": "1",
+                        "$context": {
+                            "links": {
+                                "$self": {
+                                    "href": "http://servername/api/boss/data/objects/productreferences/v1/cxprtagcategories/1"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "tagId": "161",
+                "$id": "1012",
+                "$context": {
+                    "links": {
+                        "$self": {
+                            "href": "http://servername/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyTags/1012"
+                        }
+                    }
+                },
+                "tag": {
+                    "tag": "Premium 5",
+                    "displayName": "1",
+                    "$id": "161",
+                    "$context": {
+                        "links": {
+                            "$self": {
+                                "href": "http://servername/api/boss/data/objects/productreferences/v1/cxprtags/161"
+                            }
+                        }
+                    },
+                    "tagCategory": {
+                        "name": "QUALITY RANKING",
+                        "$id": "3",
+                        "$context": {
+                            "links": {
+                                "$self": {
+                                    "href": "http://servername/api/boss/data/objects/productreferences/v1/cxprtagcategories/3"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "tagId": "85",
+                "$id": "1013",
+                "$context": {
+                    "links": {
+                        "$self": {
+                            "href": "http://servername/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyTags/1013"
+                        }
+                    }
+                },
+                "tag": {
+                    "tag": "Private Reference",
+                    "displayName": "Internally Accessible",
+                    "$id": "85",
+                    "$context": {
+                        "links": {
+                            "$self": {
+                                "href": "http://servername/api/boss/data/objects/productreferences/v1/cxprtags/85"
+                            }
+                        }
+                    },
+                    "tagCategory": {
+                        "name": "AVAILABILITY",
+                        "$id": "61",
+                        "$context": {
+                            "links": {
+                                "$self": {
+                                    "href": "http://servername/api/boss/data/objects/productreferences/v1/cxprtagcategories/61"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        ],
+        "hasMore": false
+    },
+    "storyAttributes": {
+        "items": [
+            {
+                "attrStaticId": "STORY_QUOTE",
+                "attrValue": "Use direct quotes from the customer to emphasize how your product helped them.",
+                "$id": "993",
+                "$context": {
+                    "links": {
+                        "$self": {
+                            "href": "http://servername/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyAttributes/993"
+                        }
+                    }
+                }
+            },
+            {
+                "attrStaticId": "STORY_QUOTE_FOOTER",
+                "attrValue": "Customer Name, Title, \nCompany Name",
+                "$id": "994",
+                "$context": {
+                    "links": {
+                        "$self": {
+                            "href": "http://servername/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyAttributes/994"
+                        }
+                    }
+                }
+            },
+            {
+                "attrStaticId": "STORY_QUOTE_PROFILE_PIC",
+                "attrValue": "product_references/assets/default/profile_pic.png",
+                "$id": "995",
+                "$context": {
+                    "links": {
+                        "$self": {
+                            "href": "http://servername/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyAttributes/995"
+                        }
+                    }
+                }
+            },
+            {
+                "attrStaticId": "SHORT_TITLE",
+                "attrValue": "Title Highlighting the Customer Benefit of Using Oracle Product",
+                "$id": "996",
+                "$context": {
+                    "links": {
+                        "$self": {
+                            "href": "http://servername/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyAttributes/996"
+                        }
+                    }
+                }
+            },
+            {
+                "attrStaticId": "SHORT_HERO_IMG_URL",
+                "attrValue": "https://www.oracle.com/asset/web/i/hero-pattern.png",
+                "$id": "997",
+                "$context": {
+                    "links": {
+                        "$self": {
+                            "href": "http://servername/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyAttributes/997"
+                        }
+                    }
+                }
+            },
+            {
+                "attrStaticId": "INDUSTRY",
+                "attrValue": "Region | Industry",
+                "$id": "998",
+                "$context": {
+                    "links": {
+                        "$self": {
+                            "href": "http://servername/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyAttributes/998"
+                        }
+                    }
+                }
+            },
+            {
+                "attrStaticId": "SHORT_BUSINESS_CHALLENGES_TEXT",
+                "attrValue": "Provide a brief overview of the customer's industry and business highlights and a short description of the Oracle product they adopted to solve their problem.",
+                "$id": "999",
+                "$context": {
+                    "links": {
+                        "$self": {
+                            "href": "http://servername/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyAttributes/999"
+                        }
+                    }
+                }
+            },
+            {
+                "attrStaticId": "STORY_QUOTE_FOOTER_NAME",
+                "attrValue": "Customer Name",
+                "$id": "1001",
+                "$context": {
+                    "links": {
+                        "$self": {
+                            "href": "http://servername/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyAttributes/1001"
+                        }
+                    }
+                }
+            },
+            {
+                "attrStaticId": "STORY_QUOTE_FOOTER_TITLE",
+                "attrValue": "Title, Company Name",
+                "$id": "1002",
+                "$context": {
+                    "links": {
+                        "$self": {
+                            "href": "http://servername/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyAttributes/1002"
+                        }
+                    }
+                }
+            },
+            {
+                "attrStaticId": "ABOUT_CUSTOMER",
+                "attrValue": "About the Customer",
+                "$id": "1003",
+                "$context": {
+                    "links": {
+                        "$self": {
+                            "href": "http://servername/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyAttributes/1003"
+                        }
+                    }
+                }
+            },
+            {
+                "attrStaticId": "ABOUT_CUSTOMER_TEXT",
+                "attrValue": "Provide a brief introduction that sets the context for the customer's story. Mention their industry, company size, or any other relevant background information that helps establish credibility.",
+                "$id": "1004",
+                "$context": {
+                    "links": {
+                        "$self": {
+                            "href": "http://servername/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyAttributes/1004"
+                        }
+                    }
+                }
+            },
+            {
+                "attrStaticId": "BACKGROUND_IMAGE_URL",
+                "attrValue": "product_references/assets/default/hero-bg.avif",
+                "$id": "1005",
+                "$context": {
+                    "links": {
+                        "$self": {
+                            "href": "http://servername/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyAttributes/1005"
+                        }
+                    }
+                }
+            },
+            {
+                "attrStaticId": "BUSINESS_CHALLENGES_TEXT",
+                "attrValue": "Contextualize : Provide a brief overview of the customer's industry or sector to help readers understand the business environment in which the challenge arose. This sets the stage for the specific challenges faced by the customer.\nIdentify the Specific Challenge: Clearly state the primary challenge or problem that the customer encountered. Be specific and focus on a single main challenge rather than trying to cover multiple issues.",
+                "$id": "1006",
+                "$context": {
+                    "links": {
+                        "$self": {
+                            "href": "http://servername/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyAttributes/1006"
+                        }
+                    }
+                }
+            },
+            {
+                "attrStaticId": "CUSTOMER_SUCCESS_LABEL",
+                "attrValue": "Oracle Customer Success\n",
+                "$id": "1007",
+                "$context": {
+                    "links": {
+                        "$self": {
+                            "href": "http://servername/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyAttributes/1007"
+                        }
+                    }
+                }
+            },
+            {
+                "attrStaticId": "CUST_LOGO_URL",
+                "attrValue": "product_references/assets/default/logo.png",
+                "$id": "1008",
+                "$context": {
+                    "links": {
+                        "$self": {
+                            "href": "http://servername/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyAttributes/1008"
+                        }
+                    }
+                }
+            },
+            {
+                "attrStaticId": "PUBLISHED_DATE",
+                "attrValue": "Published : Month Day, Year",
+                "$id": "1009",
+                "$context": {
+                    "links": {
+                        "$self": {
+                            "href": "http://servername/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyAttributes/1009"
+                        }
+                    }
+                }
+            },
+            {
+                "attrStaticId": "READ_MORE_LABEL",
+                "attrValue": "Read the full story",
+                "$id": "1010",
+                "$context": {
+                    "links": {
+                        "$self": {
+                            "href": "http://servername/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyAttributes/1010"
+                        }
+                    }
+                }
+            }
+        ],
+        "hasMore": false
+    }
+}
