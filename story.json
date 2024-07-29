@@ -4,9 +4,13 @@
     "$context": {
         "links": {
             "$self": {
-                "href": "http://servername/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1"
+                "href": "http://100.75.46.151:8000/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1"
             }
         }
+    },
+    "storyTemplatesXref": {
+        "items": [],
+        "hasMore": false
     },
     "storyTags": {
         "items": [
@@ -16,7 +20,7 @@
                 "$context": {
                     "links": {
                         "$self": {
-                            "href": "http://servername/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyTags/1011"
+                            "href": "http://100.75.46.151:8000/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyTags/1011"
                         }
                     }
                 },
@@ -27,7 +31,7 @@
                     "$context": {
                         "links": {
                             "$self": {
-                                "href": "http://servername/api/boss/data/objects/productreferences/v1/cxprtags/3"
+                                "href": "http://100.75.46.151:8000/api/boss/data/objects/productreferences/v1/cxprtags/3"
                             }
                         }
                     },
@@ -37,7 +41,7 @@
                         "$context": {
                             "links": {
                                 "$self": {
-                                    "href": "http://servername/api/boss/data/objects/productreferences/v1/cxprtagcategories/1"
+                                    "href": "http://100.75.46.151:8000/api/boss/data/objects/productreferences/v1/cxprtagcategories/1"
                                 }
                             }
                         }
@@ -50,7 +54,7 @@
                 "$context": {
                     "links": {
                         "$self": {
-                            "href": "http://servername/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyTags/1012"
+                            "href": "http://100.75.46.151:8000/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyTags/1012"
                         }
                     }
                 },
@@ -61,7 +65,7 @@
                     "$context": {
                         "links": {
                             "$self": {
-                                "href": "http://servername/api/boss/data/objects/productreferences/v1/cxprtags/161"
+                                "href": "http://100.75.46.151:8000/api/boss/data/objects/productreferences/v1/cxprtags/161"
                             }
                         }
                     },
@@ -71,7 +75,7 @@
                         "$context": {
                             "links": {
                                 "$self": {
-                                    "href": "http://servername/api/boss/data/objects/productreferences/v1/cxprtagcategories/3"
+                                    "href": "http://100.75.46.151:8000/api/boss/data/objects/productreferences/v1/cxprtagcategories/3"
                                 }
                             }
                         }
@@ -84,7 +88,7 @@
                 "$context": {
                     "links": {
                         "$self": {
-                            "href": "http://servername/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyTags/1013"
+                            "href": "http://100.75.46.151:8000/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyTags/1013"
                         }
                     }
                 },
@@ -95,7 +99,7 @@
                     "$context": {
                         "links": {
                             "$self": {
-                                "href": "http://servername/api/boss/data/objects/productreferences/v1/cxprtags/85"
+                                "href": "http://100.75.46.151:8000/api/boss/data/objects/productreferences/v1/cxprtags/85"
                             }
                         }
                     },
@@ -105,7 +109,7 @@
                         "$context": {
                             "links": {
                                 "$self": {
-                                    "href": "http://servername/api/boss/data/objects/productreferences/v1/cxprtagcategories/61"
+                                    "href": "http://100.75.46.151:8000/api/boss/data/objects/productreferences/v1/cxprtagcategories/61"
                                 }
                             }
                         }
@@ -124,7 +128,7 @@
                 "$context": {
                     "links": {
                         "$self": {
-                            "href": "http://servername/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyAttributes/993"
+                            "href": "http://100.75.46.151:8000/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyAttributes/993"
                         }
                     }
                 }
@@ -136,7 +140,7 @@
                 "$context": {
                     "links": {
                         "$self": {
-                            "href": "http://servername/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyAttributes/994"
+                            "href": "http://100.75.46.151:8000/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyAttributes/994"
                         }
                     }
                 }
@@ -148,7 +152,7 @@
                 "$context": {
                     "links": {
                         "$self": {
-                            "href": "http://servername/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyAttributes/995"
+                            "href": "http://100.75.46.151:8000/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyAttributes/995"
                         }
                     }
                 }
@@ -160,7 +164,7 @@
                 "$context": {
                     "links": {
                         "$self": {
-                            "href": "http://servername/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyAttributes/996"
+                            "href": "http://100.75.46.151:8000/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyAttributes/996"
                         }
                     }
                 }
@@ -172,7 +176,7 @@
                 "$context": {
                     "links": {
                         "$self": {
-                            "href": "http://servername/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyAttributes/997"
+                            "href": "http://100.75.46.151:8000/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyAttributes/997"
                         }
                     }
                 }
@@ -184,7 +188,7 @@
                 "$context": {
                     "links": {
                         "$self": {
-                            "href": "http://servername/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyAttributes/998"
+                            "href": "http://100.75.46.151:8000/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyAttributes/998"
                         }
                     }
                 }
@@ -196,7 +200,7 @@
                 "$context": {
                     "links": {
                         "$self": {
-                            "href": "http://servername/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyAttributes/999"
+                            "href": "http://100.75.46.151:8000/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyAttributes/999"
                         }
                     }
                 }
@@ -208,7 +212,7 @@
                 "$context": {
                     "links": {
                         "$self": {
-                            "href": "http://servername/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyAttributes/1001"
+                            "href": "http://100.75.46.151:8000/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyAttributes/1001"
                         }
                     }
                 }
@@ -220,7 +224,7 @@
                 "$context": {
                     "links": {
                         "$self": {
-                            "href": "http://servername/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyAttributes/1002"
+                            "href": "http://100.75.46.151:8000/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyAttributes/1002"
                         }
                     }
                 }
@@ -232,7 +236,7 @@
                 "$context": {
                     "links": {
                         "$self": {
-                            "href": "http://servername/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyAttributes/1003"
+                            "href": "http://100.75.46.151:8000/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyAttributes/1003"
                         }
                     }
                 }
@@ -244,7 +248,7 @@
                 "$context": {
                     "links": {
                         "$self": {
-                            "href": "http://servername/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyAttributes/1004"
+                            "href": "http://100.75.46.151:8000/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyAttributes/1004"
                         }
                     }
                 }
@@ -256,7 +260,7 @@
                 "$context": {
                     "links": {
                         "$self": {
-                            "href": "http://servername/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyAttributes/1005"
+                            "href": "http://100.75.46.151:8000/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyAttributes/1005"
                         }
                     }
                 }
@@ -268,7 +272,7 @@
                 "$context": {
                     "links": {
                         "$self": {
-                            "href": "http://servername/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyAttributes/1006"
+                            "href": "http://100.75.46.151:8000/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyAttributes/1006"
                         }
                     }
                 }
@@ -280,7 +284,7 @@
                 "$context": {
                     "links": {
                         "$self": {
-                            "href": "http://servername/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyAttributes/1007"
+                            "href": "http://100.75.46.151:8000/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyAttributes/1007"
                         }
                     }
                 }
@@ -292,7 +296,7 @@
                 "$context": {
                     "links": {
                         "$self": {
-                            "href": "http://servername/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyAttributes/1008"
+                            "href": "http://100.75.46.151:8000/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyAttributes/1008"
                         }
                     }
                 }
@@ -304,7 +308,7 @@
                 "$context": {
                     "links": {
                         "$self": {
-                            "href": "http://servername/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyAttributes/1009"
+                            "href": "http://100.75.46.151:8000/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyAttributes/1009"
                         }
                     }
                 }
@@ -316,7 +320,7 @@
                 "$context": {
                     "links": {
                         "$self": {
-                            "href": "http://servername/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyAttributes/1010"
+                            "href": "http://100.75.46.151:8000/api/boss/data/objects/productreferences/v1/cxprstories/1035%2C1/storyAttributes/1010"
                         }
                     }
                 }
