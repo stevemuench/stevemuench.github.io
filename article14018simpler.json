@@ -1,0 +1,53 @@
+{
+    "title": "Diving into APEX",
+    "text": "In this article, we dive into APEX. And we do.",
+    "_id": "14018",
+    "attributes":[
+            {
+                "name": "PublishDate",
+                "value": "2024-07-14",
+                "_id": "22002"
+            },
+            {
+                "name": "NYTReviewStars",
+                "value": "5",
+                "_id": "25014"
+            }
+        ],
+    "appliedTags": [
+            {
+                "tagId": "25004",
+                "_id": "25009",
+                "tag": {
+                    "name": "Oracle APEX",
+                    "_id": "25004"
+                }
+            },
+            {
+                "tagId": "25008",
+                "_id": "25011",
+                "tag": {
+                    "name": "Sample App",
+                    "_id": "25008"
+                }
+            },
+            {
+                "tagId": "25006",
+                "_id": "25010",
+                "tag": {
+                    "name": "Tutorial",
+                    "_id": "25006"
+                }
+            }
+        ],
+    "authors": [
+            {
+                "authorId": "14017",
+                "_id": "16005",
+                "author": {
+                    "name": "Steve Muench",
+                    "_id": "14017"
+                }
+            }
+        ]
+}

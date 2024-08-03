@@ -1,0 +1,61 @@
+{
+    "title": "Forms Developers Companion Overview",
+    "text": "big article",
+    "_id": "16006",
+    "attributes": [
+            {
+                "name": "PublishDate",
+                "value": "1994-02-16",
+                "_id": "25015"
+            },
+            {
+                "name": "Publisher",
+                "value": "Maverick Publishing",
+                "_id": "25016"
+            }
+        ],
+    "appliedTags":[
+            {
+                "tagId": "25005",
+                "_id": "25012",
+                "tag": {
+                    "name": "Oracle Forms",
+                    "_id": "25005"
+                }
+            },
+            {
+                "tagId": "25007",
+                "_id": "25013",
+                "tag": {
+                    "name": "Recipes",
+                    "_id": "25007"
+                }
+            }
+    ],
+    "authors": [
+            {
+                "authorId": "16002",
+                "_id": "16008",
+                "author": {
+                    "name": "Brian Adams",
+                    "_id": "16002"
+                }
+            },
+            {
+                "authorId": "16003",
+                "_id": "16007",
+                "author": {
+                    "name": "Andrew Yang",
+                    "_id": "16003"
+                }
+            },
+            {
+                "authorId": "14017",
+                "_id": "16009",
+                "author": {
+                    "name": "Steve Muench",
+                    "_id": "14017"
+                }
+            }
+        ]
+}
