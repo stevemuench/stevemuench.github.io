@@ -1,0 +1,141 @@
+
+{
+    "title": "Diving into APEX",
+    "text": "In this article, we dive into APEX. And we do.",
+    "$id": "14018",
+    "$context": {
+        "etag": "22",
+        "links": {
+            "$self": {
+                "href": "http://localhost:9999/api/boss/data/objects/demomodule/v1/article/14018"
+            }
+        }
+    },
+    "attributes": {
+        "items": [
+            {
+                "name": "PublishDate",
+                "value": "2024-07-14",
+                "$id": "22002",
+                "$context": {
+                    "links": {
+                        "$self": {
+                            "href": "http://localhost:9999/api/boss/data/objects/demomodule/v1/article/14018/attributes/22002"
+                        }
+                    }
+                }
+            },
+            {
+                "name": "NYTReviewStars",
+                "value": "5",
+                "$id": "25014",
+                "$context": {
+                    "links": {
+                        "$self": {
+                            "href": "http://localhost:9999/api/boss/data/objects/demomodule/v1/article/14018/attributes/25014"
+                        }
+                    }
+                }
+            }
+        ],
+        "hasMore": false
+    },
+    "appliedTags": {
+        "items": [
+            {
+                "tagId": "25004",
+                "$id": "25009",
+                "$context": {
+                    "links": {
+                        "$self": {
+                            "href": "http://localhost:9999/api/boss/data/objects/demomodule/v1/article/14018/appliedTags/25009"
+                        }
+                    }
+                },
+                "tag": {
+                    "name": "Oracle APEX",
+                    "$id": "25004",
+                    "$context": {
+                        "links": {
+                            "$self": {
+                                "href": "http://localhost:9999/api/boss/data/objects/demomodule/v1/articletag/25004"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "tagId": "25008",
+                "$id": "25011",
+                "$context": {
+                    "links": {
+                        "$self": {
+                            "href": "http://localhost:9999/api/boss/data/objects/demomodule/v1/article/14018/appliedTags/25011"
+                        }
+                    }
+                },
+                "tag": {
+                    "name": "Sample App",
+                    "$id": "25008",
+                    "$context": {
+                        "links": {
+                            "$self": {
+                                "href": "http://localhost:9999/api/boss/data/objects/demomodule/v1/articletag/25008"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "tagId": "25006",
+                "$id": "25010",
+                "$context": {
+                    "links": {
+                        "$self": {
+                            "href": "http://localhost:9999/api/boss/data/objects/demomodule/v1/article/14018/appliedTags/25010"
+                        }
+                    }
+                },
+                "tag": {
+                    "name": "Tutorial",
+                    "$id": "25006",
+                    "$context": {
+                        "links": {
+                            "$self": {
+                                "href": "http://localhost:9999/api/boss/data/objects/demomodule/v1/articletag/25006"
+                            }
+                        }
+                    }
+                }
+            }
+        ],
+        "hasMore": false
+    },
+    "authors": {
+        "items": [
+            {
+                "authorId": "14017",
+                "$id": "16005",
+                "$context": {
+                    "links": {
+                        "$self": {
+                            "href": "http://localhost:9999/api/boss/data/objects/demomodule/v1/article/14018/authors/16005"
+                        }
+                    }
+                },
+                "author": {
+                    "name": "Steve Muench",
+                    "$id": "14017",
+                    "$context": {
+                        "links": {
+                            "$self": {
+                                "href": "http://localhost:9999/api/boss/data/objects/demomodule/v1/author/14017"
+                            }
+                        }
+                    }
+                }
+            }
+        ],
+        "hasMore": false
+    }
+}

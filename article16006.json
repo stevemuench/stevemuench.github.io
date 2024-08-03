@@ -1,0 +1,162 @@
+{
+    "title": "Forms Developers Companion Overview",
+    "text": "big article",
+    "$id": "16006",
+    "$context": {
+        "etag": "9",
+        "links": {
+            "$self": {
+                "href": "http://localhost:9999/api/boss/data/objects/demomodule/v1/article/16006"
+            }
+        }
+    },
+    "attributes": {
+        "items": [
+            {
+                "name": "PublishDate",
+                "value": "1994-02-16",
+                "$id": "25015",
+                "$context": {
+                    "links": {
+                        "$self": {
+                            "href": "http://localhost:9999/api/boss/data/objects/demomodule/v1/article/16006/attributes/25015"
+                        }
+                    }
+                }
+            },
+            {
+                "name": "Publisher",
+                "value": "Maverick Publishing",
+                "$id": "25016",
+                "$context": {
+                    "links": {
+                        "$self": {
+                            "href": "http://localhost:9999/api/boss/data/objects/demomodule/v1/article/16006/attributes/25016"
+                        }
+                    }
+                }
+            }
+        ],
+        "hasMore": false
+    },
+    "appliedTags": {
+        "items": [
+            {
+                "tagId": "25005",
+                "$id": "25012",
+                "$context": {
+                    "links": {
+                        "$self": {
+                            "href": "http://localhost:9999/api/boss/data/objects/demomodule/v1/article/16006/appliedTags/25012"
+                        }
+                    }
+                },
+                "tag": {
+                    "name": "Oracle Forms",
+                    "$id": "25005",
+                    "$context": {
+                        "links": {
+                            "$self": {
+                                "href": "http://localhost:9999/api/boss/data/objects/demomodule/v1/articletag/25005"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "tagId": "25007",
+                "$id": "25013",
+                "$context": {
+                    "links": {
+                        "$self": {
+                            "href": "http://localhost:9999/api/boss/data/objects/demomodule/v1/article/16006/appliedTags/25013"
+                        }
+                    }
+                },
+                "tag": {
+                    "name": "Recipes",
+                    "$id": "25007",
+                    "$context": {
+                        "links": {
+                            "$self": {
+                                "href": "http://localhost:9999/api/boss/data/objects/demomodule/v1/articletag/25007"
+                            }
+                        }
+                    }
+                }
+            }
+        ],
+        "hasMore": false
+    },
+    "authors": {
+        "items": [
+            {
+                "authorId": "16002",
+                "$id": "16008",
+                "$context": {
+                    "links": {
+                        "$self": {
+                            "href": "http://localhost:9999/api/boss/data/objects/demomodule/v1/article/16006/authors/16008"
+                        }
+                    }
+                },
+                "author": {
+                    "name": "Brian Adams",
+                    "$id": "16002",
+                    "$context": {
+                        "links": {
+                            "$self": {
+                                "href": "http://localhost:9999/api/boss/data/objects/demomodule/v1/author/16002"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "authorId": "16003",
+                "$id": "16007",
+                "$context": {
+                    "links": {
+                        "$self": {
+                            "href": "http://localhost:9999/api/boss/data/objects/demomodule/v1/article/16006/authors/16007"
+                        }
+                    }
+                },
+                "author": {
+                    "name": "Andrew Yang",
+                    "$id": "16003",
+                    "$context": {
+                        "links": {
+                            "$self": {
+                                "href": "http://localhost:9999/api/boss/data/objects/demomodule/v1/author/16003"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "authorId": "14017",
+                "$id": "16009",
+                "$context": {
+                    "links": {
+                        "$self": {
+                            "href": "http://localhost:9999/api/boss/data/objects/demomodule/v1/article/16006/authors/16009"
+                        }
+                    }
+                },
+                "author": {
+                    "name": "Steve Muench",
+                    "$id": "14017",
+                    "$context": {
+                        "links": {
+                            "$self": {
+                                "href": "http://localhost:9999/api/boss/data/objects/demomodule/v1/author/14017"
+                            }
+                        }
+                    }
+                }
+            }
+        ],
+        "hasMore": false
+    }
+}
