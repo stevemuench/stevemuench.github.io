@@ -1,0 +1,24 @@
+{
+    "results": [
+      {
+        "id": 47664,
+        "name": "Test Name",
+        "text": "Test text for the sake of argument",
+        "dateCreated": "2024-05-24T06:22:40Z",
+        "dataType": "reward-category-name",
+        "langId": "English"
+      },
+      {
+        "id": 47722,
+        "name": "Another Name",
+        "text": "More text for you",
+        "dateCreated": "2024-05-24T12:55:54Z",
+        "dataType": "activity-stream",
+        "langId": "English"
+      }
+    ],
+    "siteId": 2,
+    "clientId": 451,
+    "resultsCount": 2,
+    "totalCount": 2
+  }
