@@ -1606,6 +1606,292 @@ wwv_web_src_catalog_api.create_catalog_service(
 );
 end;
 /
+prompt --workspace/rest-source-catalogs/services//payslips
+begin
+wwv_flow_imp.g_varchar2_table := wwv_flow_imp.empty_varchar2_table;
+wwv_flow_imp.g_varchar2_table(1) := '{'||wwv_flow.LF||
+'"data_profile":{'||wwv_flow.LF||
+'"name":"Payslips"'||wwv_flow.LF||
+',"format":"JSON"'||wwv_flow.LF||
+',"row_selector":"items"'||wwv_flow.LF||
+',"is_single_row":"N"'||wwv_flow.LF||
+',';
+wwv_flow_imp.g_varchar2_table(2) := '"columns":['||wwv_flow.LF||
+'{'||wwv_flow.LF||
+'"name":"APEX$RESOURCEKEY"'||wwv_flow.LF||
+',"sequence":1'||wwv_flow.LF||
+',"is_primary_key":"Y"'||wwv_flow.LF||
+',"data_type":"VARCHAR2"'||wwv_flow.LF||
+'';
+wwv_flow_imp.g_varchar2_table(3) := ',"max_length":4000'||wwv_flow.LF||
+',"has_time_zone":"N"'||wwv_flow.LF||
+',"is_hidden":"N"'||wwv_flow.LF||
+',"is_filterable":"N"'||wwv_flow.LF||
+',"selector":"@context.';
+wwv_flow_imp.g_varchar2_table(4) := 'key"'||wwv_flow.LF||
+',"remote_attribute_name":"APEX$ResourceKey"'||wwv_flow.LF||
+',"is_common":"Y"'||wwv_flow.LF||
+'}'||wwv_flow.LF||
+',{'||wwv_flow.LF||
+'"name":"AMOUNT"'||wwv_flow.LF||
+',"sequence":2';
+wwv_flow_imp.g_varchar2_table(5) := ''||wwv_flow.LF||
+',"is_primary_key":"N"'||wwv_flow.LF||
+',"data_type":"NUMBER"'||wwv_flow.LF||
+',"has_time_zone":"N"'||wwv_flow.LF||
+',"is_hidden":"N"'||wwv_flow.LF||
+',"is_filterable":';
+wwv_flow_imp.g_varchar2_table(6) := '"Y"'||wwv_flow.LF||
+',"selector":"Amount"'||wwv_flow.LF||
+',"is_common":"Y"'||wwv_flow.LF||
+'}'||wwv_flow.LF||
+',{'||wwv_flow.LF||
+'"name":"DEFAULTCURRENCYCODE"'||wwv_flow.LF||
+',"sequence":3'||wwv_flow.LF||
+',"is_prima';
+wwv_flow_imp.g_varchar2_table(7) := 'ry_key":"N"'||wwv_flow.LF||
+',"data_type":"VARCHAR2"'||wwv_flow.LF||
+',"max_length":20'||wwv_flow.LF||
+',"has_time_zone":"N"'||wwv_flow.LF||
+',"is_hidden":"N"'||wwv_flow.LF||
+',"is_filt';
+wwv_flow_imp.g_varchar2_table(8) := 'erable":"Y"'||wwv_flow.LF||
+',"selector":"DefaultCurrencyCode"'||wwv_flow.LF||
+',"additional_info":"Required,ReadOnly"'||wwv_flow.LF||
+',"is_common":"Y';
+wwv_flow_imp.g_varchar2_table(9) := '"'||wwv_flow.LF||
+'}'||wwv_flow.LF||
+',{'||wwv_flow.LF||
+'"name":"PAYSLIPVIEWDATE"'||wwv_flow.LF||
+',"sequence":4'||wwv_flow.LF||
+',"is_primary_key":"N"'||wwv_flow.LF||
+',"data_type":"DATE"'||wwv_flow.LF||
+',"format_mas';
+wwv_flow_imp.g_varchar2_table(10) := 'k":"YYYY-MM-DD"'||wwv_flow.LF||
+',"has_time_zone":"N"'||wwv_flow.LF||
+',"is_hidden":"N"'||wwv_flow.LF||
+',"is_filterable":"Y"'||wwv_flow.LF||
+',"selector":"PayslipViewD';
+wwv_flow_imp.g_varchar2_table(11) := 'ate"'||wwv_flow.LF||
+',"is_common":"Y"'||wwv_flow.LF||
+'}'||wwv_flow.LF||
+',{'||wwv_flow.LF||
+'"name":"PERIODSTARTDATE"'||wwv_flow.LF||
+',"sequence":5'||wwv_flow.LF||
+',"is_primary_key":"N"'||wwv_flow.LF||
+',"data_type"';
+wwv_flow_imp.g_varchar2_table(12) := ':"DATE"'||wwv_flow.LF||
+',"format_mask":"YYYY-MM-DD"'||wwv_flow.LF||
+',"has_time_zone":"N"'||wwv_flow.LF||
+',"is_hidden":"N"'||wwv_flow.LF||
+',"is_filterable":"Y"'||wwv_flow.LF||
+',"sel';
+wwv_flow_imp.g_varchar2_table(13) := 'ector":"PeriodStartDate"'||wwv_flow.LF||
+',"is_common":"Y"'||wwv_flow.LF||
+'}'||wwv_flow.LF||
+',{'||wwv_flow.LF||
+'"name":"PERIODENDDATE"'||wwv_flow.LF||
+',"sequence":6'||wwv_flow.LF||
+',"is_primary_key';
+wwv_flow_imp.g_varchar2_table(14) := '":"N"'||wwv_flow.LF||
+',"data_type":"DATE"'||wwv_flow.LF||
+',"format_mask":"YYYY-MM-DD"'||wwv_flow.LF||
+',"has_time_zone":"N"'||wwv_flow.LF||
+',"is_hidden":"N"'||wwv_flow.LF||
+',"is_fil';
+wwv_flow_imp.g_varchar2_table(15) := 'terable":"Y"'||wwv_flow.LF||
+',"selector":"PeriodEndDate"'||wwv_flow.LF||
+',"is_common":"Y"'||wwv_flow.LF||
+'}'||wwv_flow.LF||
+',{'||wwv_flow.LF||
+'"name":"PAYMENTDATE"'||wwv_flow.LF||
+',"sequence":7'||wwv_flow.LF||
+',"';
+wwv_flow_imp.g_varchar2_table(16) := 'is_primary_key":"N"'||wwv_flow.LF||
+',"data_type":"DATE"'||wwv_flow.LF||
+',"format_mask":"YYYY-MM-DD"'||wwv_flow.LF||
+',"has_time_zone":"N"'||wwv_flow.LF||
+',"is_hidden';
+wwv_flow_imp.g_varchar2_table(17) := '":"N"'||wwv_flow.LF||
+',"is_filterable":"Y"'||wwv_flow.LF||
+',"selector":"PaymentDate"'||wwv_flow.LF||
+',"is_common":"Y"'||wwv_flow.LF||
+'}'||wwv_flow.LF||
+',{'||wwv_flow.LF||
+'"name":"DOCUMENTSOFRECORD';
+wwv_flow_imp.g_varchar2_table(18) := 'ID"'||wwv_flow.LF||
+',"sequence":8'||wwv_flow.LF||
+',"is_primary_key":"N"'||wwv_flow.LF||
+',"data_type":"NUMBER"'||wwv_flow.LF||
+',"has_time_zone":"N"'||wwv_flow.LF||
+',"is_hidden":"N"'||wwv_flow.LF||
+'';
+wwv_flow_imp.g_varchar2_table(19) := ',"is_filterable":"Y"'||wwv_flow.LF||
+',"selector":"DocumentsOfRecordId"'||wwv_flow.LF||
+',"additional_info":"RemotePK"'||wwv_flow.LF||
+',"is_common":"Y';
+wwv_flow_imp.g_varchar2_table(20) := '"'||wwv_flow.LF||
+'}'||wwv_flow.LF||
+',{'||wwv_flow.LF||
+'"name":"ATTACHMENTENTITYNAME"'||wwv_flow.LF||
+',"sequence":9'||wwv_flow.LF||
+',"is_primary_key":"N"'||wwv_flow.LF||
+',"data_type":"VARCHAR2"'||wwv_flow.LF||
+',"m';
+wwv_flow_imp.g_varchar2_table(21) := 'ax_length":22'||wwv_flow.LF||
+',"has_time_zone":"N"'||wwv_flow.LF||
+',"is_hidden":"N"'||wwv_flow.LF||
+',"is_filterable":"Y"'||wwv_flow.LF||
+',"selector":"AttachmentEnti';
+wwv_flow_imp.g_varchar2_table(22) := 'tyName"'||wwv_flow.LF||
+',"is_common":"Y"'||wwv_flow.LF||
+'}'||wwv_flow.LF||
+',{'||wwv_flow.LF||
+'"name":"PAYROLLRELATIONSHIPID"'||wwv_flow.LF||
+',"sequence":10'||wwv_flow.LF||
+',"is_primary_key":"N"'||wwv_flow.LF||
+',"';
+wwv_flow_imp.g_varchar2_table(23) := 'data_type":"NUMBER"'||wwv_flow.LF||
+',"has_time_zone":"N"'||wwv_flow.LF||
+',"is_hidden":"N"'||wwv_flow.LF||
+',"is_filterable":"Y"'||wwv_flow.LF||
+',"selector":"PayrollR';
+wwv_flow_imp.g_varchar2_table(24) := 'elationshipId"'||wwv_flow.LF||
+',"is_common":"Y"'||wwv_flow.LF||
+'}'||wwv_flow.LF||
+',{'||wwv_flow.LF||
+'"name":"PAYROLLRELATIONSHIPNUMBER"'||wwv_flow.LF||
+',"sequence":11'||wwv_flow.LF||
+',"is_primary_';
+wwv_flow_imp.g_varchar2_table(25) := 'key":"N"'||wwv_flow.LF||
+',"data_type":"VARCHAR2"'||wwv_flow.LF||
+',"max_length":30'||wwv_flow.LF||
+',"has_time_zone":"N"'||wwv_flow.LF||
+',"is_hidden":"N"'||wwv_flow.LF||
+',"is_filtera';
+wwv_flow_imp.g_varchar2_table(26) := 'ble":"Y"'||wwv_flow.LF||
+',"selector":"PayrollRelationshipNumber"'||wwv_flow.LF||
+',"additional_info":"Required,ReadOnly"'||wwv_flow.LF||
+',"is_common"';
+wwv_flow_imp.g_varchar2_table(27) := ':"Y"'||wwv_flow.LF||
+'}'||wwv_flow.LF||
+',{'||wwv_flow.LF||
+'"name":"PERSONID"'||wwv_flow.LF||
+',"sequence":12'||wwv_flow.LF||
+',"is_primary_key":"N"'||wwv_flow.LF||
+',"data_type":"NUMBER"'||wwv_flow.LF||
+',"has_time_zo';
+wwv_flow_imp.g_varchar2_table(28) := 'ne":"N"'||wwv_flow.LF||
+',"is_hidden":"N"'||wwv_flow.LF||
+',"is_filterable":"Y"'||wwv_flow.LF||
+',"selector":"PersonId"'||wwv_flow.LF||
+',"is_common":"Y"'||wwv_flow.LF||
+'}'||wwv_flow.LF||
+',{'||wwv_flow.LF||
+'"name":"R';
+wwv_flow_imp.g_varchar2_table(29) := 'ELACTIONID"'||wwv_flow.LF||
+',"sequence":13'||wwv_flow.LF||
+',"is_primary_key":"N"'||wwv_flow.LF||
+',"data_type":"NUMBER"'||wwv_flow.LF||
+',"has_time_zone":"N"'||wwv_flow.LF||
+',"is_hid';
+wwv_flow_imp.g_varchar2_table(30) := 'den":"N"'||wwv_flow.LF||
+',"is_filterable":"Y"'||wwv_flow.LF||
+',"selector":"RelActionId"'||wwv_flow.LF||
+',"is_common":"Y"'||wwv_flow.LF||
+'}'||wwv_flow.LF||
+',{'||wwv_flow.LF||
+'"name":"CREATIONDATE"'||wwv_flow.LF||
+'';
+wwv_flow_imp.g_varchar2_table(31) := ',"sequence":14'||wwv_flow.LF||
+',"is_primary_key":"N"'||wwv_flow.LF||
+',"data_type":"TIMESTAMP WITH TIME ZONE"'||wwv_flow.LF||
+',"format_mask":"yyyy-mm';
+wwv_flow_imp.g_varchar2_table(32) := '-dd\"T\"hh24:mi:ss.fftzh:tzm"'||wwv_flow.LF||
+',"has_time_zone":"Y"'||wwv_flow.LF||
+',"is_hidden":"N"'||wwv_flow.LF||
+',"is_filterable":"Y"'||wwv_flow.LF||
+',"selector"';
+wwv_flow_imp.g_varchar2_table(33) := ':"CreationDate"'||wwv_flow.LF||
+',"additional_info":"ReadOnly"'||wwv_flow.LF||
+',"is_common":"Y"'||wwv_flow.LF||
+'}'||wwv_flow.LF||
+',{'||wwv_flow.LF||
+'"name":"CURRENCYCODE"'||wwv_flow.LF||
+',"sequence';
+wwv_flow_imp.g_varchar2_table(34) := '":15'||wwv_flow.LF||
+',"is_primary_key":"N"'||wwv_flow.LF||
+',"data_type":"VARCHAR2"'||wwv_flow.LF||
+',"max_length":20'||wwv_flow.LF||
+',"has_time_zone":"N"'||wwv_flow.LF||
+',"is_hidden';
+wwv_flow_imp.g_varchar2_table(35) := '":"N"'||wwv_flow.LF||
+',"is_filterable":"Y"'||wwv_flow.LF||
+',"selector":"CurrencyCode"'||wwv_flow.LF||
+',"is_common":"Y"'||wwv_flow.LF||
+'}'||wwv_flow.LF||
+',{'||wwv_flow.LF||
+'"name":"WEEKDAY"'||wwv_flow.LF||
+',"seque';
+wwv_flow_imp.g_varchar2_table(36) := 'nce":16'||wwv_flow.LF||
+',"is_primary_key":"N"'||wwv_flow.LF||
+',"data_type":"VARCHAR2"'||wwv_flow.LF||
+',"max_length":255'||wwv_flow.LF||
+',"has_time_zone":"N"'||wwv_flow.LF||
+',"is_hi';
+wwv_flow_imp.g_varchar2_table(37) := 'dden":"N"'||wwv_flow.LF||
+',"is_filterable":"Y"'||wwv_flow.LF||
+',"selector":"WeekDay"'||wwv_flow.LF||
+',"additional_info":"ReadOnly"'||wwv_flow.LF||
+',"is_common":"Y"'||wwv_flow.LF||
+'';
+wwv_flow_imp.g_varchar2_table(38) := '}'||wwv_flow.LF||
+']'||wwv_flow.LF||
+'}'||wwv_flow.LF||
+',"plugin_attributes":{'||wwv_flow.LF||
+'"1":"Y"'||wwv_flow.LF||
+',"2":"payslips"'||wwv_flow.LF||
+',"3":"N"'||wwv_flow.LF||
+',"4":"Y"'||wwv_flow.LF||
+'}'||wwv_flow.LF||
+',"operations":['||wwv_flow.LF||
+'{'||wwv_flow.LF||
+'"operatio';
+wwv_flow_imp.g_varchar2_table(39) := 'n":"GET"'||wwv_flow.LF||
+',"database_operation":"FETCH_COLLECTION"'||wwv_flow.LF||
+',"url_pattern":"."'||wwv_flow.LF||
+',"allow_fetch_all_rows":"N"'||wwv_flow.LF||
+',"p';
+wwv_flow_imp.g_varchar2_table(40) := 'arameters":['||wwv_flow.LF||
+']'||wwv_flow.LF||
+'}'||wwv_flow.LF||
+',{'||wwv_flow.LF||
+'"operation":"GET"'||wwv_flow.LF||
+',"database_operation":"FETCH_SINGLE_ROW"'||wwv_flow.LF||
+',"url_pattern":"\/:AP';
+wwv_flow_imp.g_varchar2_table(41) := 'EX$ResourceKey"'||wwv_flow.LF||
+',"allow_fetch_all_rows":"N"'||wwv_flow.LF||
+',"parameters":['||wwv_flow.LF||
+']'||wwv_flow.LF||
+'}'||wwv_flow.LF||
+']'||wwv_flow.LF||
+',"parameters":['||wwv_flow.LF||
+']'||wwv_flow.LF||
+'}'||wwv_flow.LF||
+'';
+wwv_web_src_catalog_api.create_catalog_service(
+ p_id=>wwv_flow_imp.id(9254663357702377)
+,p_catalog_id=>wwv_flow_imp.id(8849586811758552)
+,p_name=>'Payslips'
+,p_base_url=>'https://fa-exgs-saasfademo1.ds-fa.oraclepdemos.com'
+,p_service_path=>'/hcmRestApi/resources/11.13.18.05/payslips'
+,p_plugin_internal_name=>'NATIVE_ADFBC'
+,p_authentication_type=>'BASIC'
+,p_details_json=>wwv_flow_imp.g_varchar2_table
+,p_version=>'20241104'
+);
+end;
+/
 begin
 wwv_flow_imp.import_end(p_auto_install_sup_obj => nvl(wwv_flow_application_install.get_auto_install_sup_obj, false)
 );
