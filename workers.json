@@ -1,50 +1,6 @@
 {
     "items": [
-        {
-            "PersonId": 300000047626100,
-            "PersonNumber": "10",
-            "FullName": "Steward, Mandy",
-            "workRelationships": [
-                {
-                    "LegalEmployerName": "US1 Legal Entity",
-                    "TerminationDate": null,
-                    "assignments": [
-                        {
-                            "AssignmentId": 300000047627120,
-                            "BusinessUnitName": "US1 Business Unit",
-                            "AssignmentType": "E",
-                            "AssignmentStatusType": "ACTIVE",
-                            "DepartmentName": "Sales",
-                            "LocationCode": "USLoc001",
-                            "managers": []
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "PersonId": 300000047631116,
-            "PersonNumber": "13",
-            "FullName": "MarketingMgr, Marion",
-            "workRelationships": [
-                {
-                    "LegalEmployerName": "US1 Legal Entity",
-                    "TerminationDate": null,
-                    "assignments": [
-                        {
-                            "AssignmentId": 300000047631136,
-                            "BusinessUnitName": "US1 Business Unit",
-                            "AssignmentType": "E",
-                            "AssignmentStatusType": "ACTIVE",
-                            "DepartmentName": "Marketing US",
-                            "LocationCode": "USLoc014",
-                            "managers": []
-                        }
-                    ]
-                }
-            ]
-        },
-        {
+         {
             "PersonId": 300000047683157,
             "PersonNumber": "39",
             "FullName": "Sharma, Aakash",
@@ -65,28 +21,6 @@
                                     "AssignmentSupervisorId": 139
                                 }
                             ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "PersonId": 300000047690191,
-            "PersonNumber": "44",
-            "FullName": "Gupta, Bala",
-            "workRelationships": [
-                {
-                    "LegalEmployerName": "US1 Legal Entity",
-                    "TerminationDate": null,
-                    "assignments": [
-                        {
-                            "AssignmentId": 300000047690210,
-                            "BusinessUnitName": "US1 Business Unit",
-                            "AssignmentType": "E",
-                            "AssignmentStatusType": "ACTIVE",
-                            "DepartmentName": "Business Services US",
-                            "LocationCode": null,
-                            "managers": []
                         }
                     ]
                 }
