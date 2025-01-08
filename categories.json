@@ -1,0 +1,16 @@
+{
+   "items": [
+      {
+        "name":"Animals"
+      },
+      {
+        "name":"Vegetables"
+      },
+      {
+        "name":"Minerals"
+      },
+      {
+        "name":"Other"
+      }
+   ]
+}
