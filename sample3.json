@@ -1,0 +1,9 @@
+{
+   "id": "125",
+   "name" : "test3",
+   "status":{
+     "inprogressId": "987",
+     "temperature" : "medium"
+   },
+  "color" : "green"
+}  
