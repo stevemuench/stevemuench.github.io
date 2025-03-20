@@ -1,0 +1,42 @@
+{
+    "header":
+    [
+    { "name": "masteraccount_id", "type": "string" },
+    { "name": "name", "type": "string" },
+    { "name": "product_level_7", "type": "string" },
+    { "name": "product_name", "type": "string" },
+    { "name": "arr", "type": "float" },
+    { "name": "open_opportunities", "type": "int" },
+    { "name": "recency", "type": "date" },
+    ],
+    "data":
+    [
+    [
+    "CXD_3895858",
+    "THE FEDERAL BANK LIMITED",
+    "0948",
+    "Fusion Unity Customer Data Platform Cloud Service",
+    20.26378,
+    1,
+    "2025-03-13"
+    ],
+    [
+    "CXD_1262401",
+    "SBI CARDS AND PAYMENT SERVICES LIMITED",
+    "0948",
+    "Fusion Unity Customer Data Platform Cloud Service",
+    1896.6824,
+    1,
+    "2025-03-12"
+    ],
+    [
+    "CXD_A4D5J4R",
+    "SK FINANCE LIMITED",
+    "0948",
+    "Fusion Unity Customer Data Platform Cloud Service",
+    0.119769104,
+    1,
+    "2025-02-06"
+    ]
+    ]
+    }
