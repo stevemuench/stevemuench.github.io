@@ -1,0 +1,42 @@
+{
+    "orgShortName": "mymeal",
+    "locRef": "store66",
+    "rvcRef": 2,
+    "items": [
+        {
+            "discountId": 13,
+            "name": {
+                "en-US": "Coffee",
+                "de-DE": "Kaffee",
+                "ar-AR": "قهوة"
+            },
+            "type": "amount",
+            "value": 5,
+            "consumerName": {
+                "en-US": "Coffee",
+                "de-DE": "Kaffee",
+                "ar-AR": "قهوة"
+            },
+            "consumerDescription": {
+                "en-US": "Coffee",
+                "de-DE": "Kaffee",
+                "ar-AR": "قهوة"
+            },
+            "images": [
+                {
+                    "index": "string",
+                    "url": "https://oracleObjectStore.com/images/coffee822815.jpg",
+                    "altText": "Close-up of a cup of coffee with a saucer, showing a dark brown liquid with a frothy top.",
+                    "description": "string",
+                    "isCloudImage": true,
+                    "size": "string"
+                }
+            ],
+            "extensions": {
+                "additionalProp1": "string",
+                "additionalProp2": "string",
+                "additionalProp3": "string"
+            }
+        }
+    ]
+}

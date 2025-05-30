@@ -1,0 +1,70 @@
+{
+    "objects": [
+        {
+            "name": "dir/S1_TERRITORY_D_10_20240130T124653424677Z.parquet",
+            "size": 547782,
+            "timeCreated": "2024-01-30T12:47:24.286Z",
+            "md5": "BukuSw6diHMOXu+VipTy3w=="
+        },
+        {
+            "name": "dir/S1_TERRITORY_D_11_20240130T124653561804Z.parquet",
+            "size": 905845,
+            "timeCreated": "2024-01-30T12:47:25.300Z",
+            "md5": "yv4wOYrJkuSaft1090BPcw==*"
+        },
+        {
+            "name": "dir/S1_TERRITORY_D_12_20240130T124653429961Z.parquet",
+            "size": 526100,
+            "timeCreated": "2024-01-30T12:47:23.910Z",
+            "md5": "7n+kovPAf6nZgonhCi5Bng=="
+        },
+        {
+            "name": "dir/S1_TERRITORY_D_13_20240130T124653504417Z.parquet",
+            "size": 915537,
+            "timeCreated": "2024-01-30T12:47:26.673Z",
+            "md5": "JpmCGbyU9Gg2CCaVhAFT6w=="
+        },
+        {
+            "name": "dir/S1_TERRITORY_D_14_20240130T124653452835Z.parquet",
+            "size": 713685,
+            "timeCreated": "2024-01-30T12:47:25.034Z",
+            "md5": "Jd7dDCPsPQXZQy3OgS0mAg=="
+        },
+        {
+            "name": "dir/S1_TERRITORY_D_15_20240130T124653495294Z.parquet",
+            "size": 895837,
+            "timeCreated": "2024-01-30T12:47:25.612Z",
+            "md5": "F7F9/NOQHZFhrDqO00U/Rg=="
+        },
+        {
+            "name": "dir/S1_TERRITORY_D_16_20240130T124653543576Z.parquet",
+            "size": 912767,
+            "timeCreated": "2024-01-30T12:47:26.451Z",
+            "md5": "fZI5mm4UfXZ3bvIdDXH4Bg=="
+        },
+        {
+            "name": "dir/S1_TERRITORY_D_17_20240130T124653419281Z.parquet",
+            "size": 513357,
+            "timeCreated": "2024-01-30T12:47:25.323Z",
+            "md5": "z9XFnnwEO43zA3TVu6/nKw=="
+        },
+        {
+            "name": "dir/S1_TERRITORY_D_18_20240130T124653518151Z.parquet",
+            "size": 731114,
+            "timeCreated": "2024-01-30T12:47:26.193Z",
+            "md5": "Q7wwk8bRHJ3bqnf6Rv+VIA=="
+        },
+        {
+            "name": "dir/S1_TERRITORY_D_19_20240130T124653408954Z.parquet",
+            "size": 436990,
+            "timeCreated": "2024-01-30T12:47:23.725Z",
+            "md5": "unNMjvGJ+ґ06Т2р9ґА=="
+        },
+        {
+            "name": "dir/S1_TERRITORY_D_1_20240130T124653490077Z.parquet",
+            "size": 967994,
+            "timeCreated": "2024-01-30T12:47:25.729Z",
+            "md5": "8lyCZcZLYXheljSwpxGRbw=="
+        }
+    ]
+}
