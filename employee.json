@@ -1,0 +1,28 @@
+{
+    "empno": 7839,
+    "ename": "KING",
+    "job": "PRESIDENT",
+    "mgr": null,
+    "hiredate": "1981-11-17T00:00:00Z",
+    "sal": 5000,
+    "comm": null,
+    "deptno": 10,
+    "links": [
+        {
+            "rel": "self",
+            "href": "https://example.com/ords/cloudcompanion/emp/7839"
+        },
+        {
+            "rel": "edit",
+            "href": "https://example.com/ords/cloudcompanion/emp/7839"
+        },
+        {
+            "rel": "describedby",
+            "href": "https://example.com/ords/cloudcompanion/metadata-catalog/emp/item"
+        },
+        {
+            "rel": "collection",
+            "href": "https://example.com/ords/cloudcompanion/emp/"
+        }
+    ]
+}
