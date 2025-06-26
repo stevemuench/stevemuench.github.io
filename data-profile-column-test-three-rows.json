@@ -1,0 +1,16 @@
+{
+    "items": [
+        {
+            "value1": 1,
+            "value2": "Hello"
+        },
+        {
+            "value1": 2,
+            "value2": "World"
+        },
+        {
+            "value1": 3,
+            "value2": "Happy Town"
+        }
+    ]
+}
