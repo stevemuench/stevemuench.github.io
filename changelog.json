@@ -1,0 +1,71 @@
+{
+  "changelog": {
+    "startAt": 0,
+    "maxResults": 2,
+    "total": 2,
+    "histories": [
+      {
+        "id": "10001",
+        "author": {
+          "accountId": "abcd1234",
+          "displayName": "Jane Doe",
+          "emailAddress": "jane.doe@example.com"
+        },
+        "created": "2025-02-11T10:15:30.000+0000",
+        "items": [
+          {
+            "field": "status",
+            "fieldtype": "jira",
+            "from": "10000",
+            "fromString": "To Do",
+            "to": "10001",
+            "toString": "In Progress"
+          },
+          {
+            "field": "assignee",
+            "fieldtype": "jira",
+            "from": "john.smith",
+            "fromString": "John Smith",
+            "to": "jane.doe",
+            "toString": "Jane Doe"
+          }
+        ]
+      },
+      {
+        "id": "10002",
+        "author": {
+          "accountId": "wxyz5678",
+          "displayName": "John Smith",
+          "emailAddress": "john.smith@example.com"
+        },
+        "created": "2025-02-12T14:42:10.000+0000",
+        "items": [
+          {
+            "field": "priority",
+            "fieldtype": "jira",
+            "from": "3",
+            "fromString": "Medium",
+            "to": "1",
+            "toString": "Highest"
+          },
+          {
+            "field": "status",
+            "fieldtype": "jira",
+            "from": "10001",
+            "fromString": "In Progress",
+            "to": "10002",
+            "toString": "Done"
+          },
+          {
+            "field": "labels",
+            "fieldtype": "jira",
+            "from": "",
+            "fromString": "",
+            "to": "",
+            "toString": "customer-reported"
+          }
+        ]
+      }
+    ]
+  }
+}
