@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SailingXRR xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Type="RegattaResult" DateTime="2026-02-07T07:29:14" xsi:noNamespaceSchemaLocation="https://www.sailing.org/techpages/resources/xml/sailingXRR_v1.3.1.xsd" Version="1.3.1">
+  <Org>
+  <Personnel>
+  <Person PersonID="a1b2c3d4-e5f6-7890-abcd-ef1234567890" IFPersonID="ABC123" FamilyName="Smith" GivenName="Joe" ClassificationStatus="Current" Gender="M" NOC="IT" ClassificationGroup="1" ClassificationExpiry="2028-01-14">
+    <Other Name="ISAFBiogUrl" Value="https://www.sailing.org/sailor/joe-smith?ref=ABC123"/>
+    <Other Name="ISAFResultsUrl" Value="https://www.sailing.org/sailor/joe-smith?ref=ABC123#Results"/>
+    <Other Name="BiogImageCaption" Value=""/>
+    <Other Name="BiogImageWidth" Value=""/>
+    <Other Name="BiogImageHeight" Value=""/>
+    <Other Name="DOB" Value="1963-07-25"/>
+    <Other Name="Nationality" Value="IT"/>
+    <Other Name="Resident Country" Value="Italy"/>
+    <Other Name="Place of Birth" Value="Padova, Italy"/>
+    <Other Name="Public Email" Value="joe.smith@example.org"/>
+  </Person>
+ </Personnel>
+</Org>
+</SailingXRR>
