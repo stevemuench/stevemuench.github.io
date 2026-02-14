@@ -1,0 +1,27 @@
+{
+	"objectEntries": [
+	{
+		"label": "Label1",
+		"attributes": [
+		{
+			"objectTypeAttributeId": 1,
+			"objectAttributeValues": [
+				{
+				"value": "Attribute1",
+				"referencedType": false
+				}
+			]
+		},
+		{
+			"objectTypeAttributeId": 2,
+			"objectAttributeValues": [
+				{
+				"value": "Attribute2",
+				"referencedType": false
+				}
+			]
+		}
+		]
+	}
+	]
+}
