@@ -3,6 +3,8 @@
 
 The first matching source in the app-based file wins.  The input files are
 never modified; the output filename is derived from the text-message file.
+
+NOTE: For Learning Purposes Only!
 """
 
 from __future__ import annotations
