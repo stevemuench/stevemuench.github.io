@@ -33,7 +33,7 @@ prompt APPLICATION 106 - Simple App
 -- Application Export:
 --   Application:     106
 --   Name:            Simple App
---   Date and Time:   18:24 Thursday July 16, 2026
+--   Date and Time:   20:53 Thursday July 16, 2026
 --   Exported By:     SMUENCH
 --   Flashback:       0
 --   Export Type:     Application Export
@@ -106,7 +106,7 @@ wwv_imp_workspace.create_flow(
 ,p_substitution_value_01=>'Simple App'
 ,p_file_prefix => nvl(wwv_flow_application_install.get_static_app_file_prefix,'')
 ,p_files_version=>11
-,p_version_scn=>484909683
+,p_version_scn=>484913350
 ,p_print_server_type=>'NATIVE'
 ,p_file_storage=>'DB'
 ,p_is_pwa=>'Y'
@@ -5373,8 +5373,8 @@ wwv_flow_imp_shared.create_translation(
 ,p_translate_to_lang_code=>'it'
 ,p_translation_specific_to_item=>'NO'
 ,p_template_translatable=>'N'
-,p_translate_to_text=>'App a pagina singola EN/IT'
-,p_translate_from_text=>'One Page EN/IT App'
+,p_translate_to_text=>'Simple App'
+,p_translate_from_text=>'Simple App'
 );
 wwv_flow_imp_shared.create_translation(
  p_id=>wwv_flow_imp.id(4114094020874216)
@@ -5457,8 +5457,8 @@ wwv_flow_imp_shared.create_translation(
 ,p_translate_to_lang_code=>'it'
 ,p_translation_specific_to_item=>'NO'
 ,p_template_translatable=>'N'
-,p_translate_to_text=>'App a pagina singola EN/IT'
-,p_translate_from_text=>'One Page EN/IT App'
+,p_translate_to_text=>'Simple App'
+,p_translate_from_text=>'Simple App'
 );
 wwv_flow_imp_shared.create_translation(
  p_id=>wwv_flow_imp.id(4114964050875488)
@@ -5843,6 +5843,47 @@ wwv_flow_imp_shared.create_translation(
 ,p_template_translatable=>'N'
 ,p_translate_to_text=>'BOTH'
 ,p_translate_from_text=>'BOTH'
+);
+wwv_flow_imp_shared.create_translation(
+ p_id=>wwv_flow_imp.id(4124488470136735)
+,p_page_id=>1
+,p_translated_flow_id=>107
+,p_translate_to_id=>wwv_flow_imp.id(4077809109110624.107)
+,p_translate_from_id=>wwv_flow_imp.id(4077809109110624)
+,p_translate_column_id=>20
+,p_translate_to_lang_code=>'it'
+,p_translation_specific_to_item=>'NO'
+,p_template_translatable=>'Y'
+,p_translate_to_text=>'Container'
+,p_translate_from_text=>'Container'
+);
+wwv_flow_imp_shared.create_translation(
+ p_id=>wwv_flow_imp.id(4124791378136768)
+,p_page_id=>1
+,p_translated_flow_id=>107
+,p_translate_to_id=>wwv_flow_imp.id(4077809109110624.107)
+,p_translate_from_id=>wwv_flow_imp.id(4077809109110624)
+,p_translate_column_id=>623
+,p_column_json_path=>'$."expand_shortcuts"'
+,p_translate_to_lang_code=>'it'
+,p_translation_specific_to_item=>'NO'
+,p_template_translatable=>'N'
+,p_translate_to_text=>'N'
+,p_translate_from_text=>'N'
+);
+wwv_flow_imp_shared.create_translation(
+ p_id=>wwv_flow_imp.id(4124979548136768)
+,p_page_id=>1
+,p_translated_flow_id=>107
+,p_translate_to_id=>wwv_flow_imp.id(4077809109110624.107)
+,p_translate_from_id=>wwv_flow_imp.id(4077809109110624)
+,p_translate_column_id=>623
+,p_column_json_path=>'$."output_as"'
+,p_translate_to_lang_code=>'it'
+,p_translation_specific_to_item=>'NO'
+,p_template_translatable=>'N'
+,p_translate_to_text=>'HTML'
+,p_translate_from_text=>'HTML'
 );
 end;
 /
