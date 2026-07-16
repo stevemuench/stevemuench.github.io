@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.0">
+   <file original="f106_en_it.xlf"
+         source-language="en"
+         target-language="it"
+         datatype="html">
+      <trans-unit id="SIMPLE_APP">
+         <source>Simple App</source>
+         <target>Simple App</target>
+      </trans-unit>
+      <trans-unit id="HOME">
+         <source>Home</source>
+         <target>Home</target>
+      </trans-unit>
+      <trans-unit id="SIGN_OUT">
+         <source>Sign Out</source>
+         <target>Sign Out</target>
+      </trans-unit>
+      <trans-unit id="CONTAINER">
+         <source>Container</source>
+         <target>Container</target>
+      </trans-unit>
+      <trans-unit id="ERROR_MESSAGE">
+         <source>Insufficient privileges, user is not an Administrator</source>
+         <target>Insufficient privileges, user is not an Administrator</target>
+      </trans-unit>
+      <trans-unit id="SEARCH">
+         <source>Search</source>
+         <target>Search</target>
+      </trans-unit>
+      <trans-unit id="SEARCH_TEXT">
+         <source>Search Text</source>
+         <target>Search Text</target>
+      </trans-unit>
+   </file>
+</xliff>
