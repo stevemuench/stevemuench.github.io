@@ -1,0 +1,9 @@
+{
+  "items": [
+    { "name": "Banana Bamboozle", "enabled": true },
+    { "name": "Mango Tango Mayhem", "enabled": false },
+    { "name": "Kiwi Conspiracy", "enabled": null },
+    { "name": "Grapefruit Grumble", "enabled": true },
+    { "name": "Pineapple Pandemonium", "enabled": false }
+  ]
+}
