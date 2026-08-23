@@ -1,6 +1,10 @@
 {
   "items": [
-    { "name": "Banana Bamboozle", "enabled": true },
+    { "name": "Banana Bamboozle", "enabled": true, "subprojects": [
+      {"subname":"foo", "completed": false},
+      {"subname":"bar", "completed": null},
+      {"subname":"baz", "completed": true}      
+    ]},
     { "name": "Mango Tango Mayhem", "enabled": false },
     { "name": "Kiwi Conspiracy", "enabled": null },
     { "name": "Grapefruit Grumble", "enabled": true },
