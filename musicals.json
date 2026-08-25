@@ -1,0 +1,2054 @@
+{
+  "items": [
+    {
+      "id": "bway-wicked",
+      "title": "Wicked",
+      "type": "Musical",
+      "genre": "Fantasy Musical",
+      "theatre": {
+        "name": "Gershwin Theatre",
+        "address": "222 West 51st Street, New York, NY 10019",
+        "seatingCapacity": 1933
+      },
+      "city": "New York, NY",
+      "openingDate": "2003-10-30",
+      "firstPerformance": "2003-10-31T00:00:00.000Z",
+      "firstPerformanceThisWeek": "2026-08-25T23:00:00.000Z",
+      "lastPerformanceThisWeek": "2026-08-30T21:45:00.000Z",
+      "status": "Currently Running",
+      "director": "Joe Mantello",
+      "musicAndLyrics": "Stephen Schwartz",
+      "bookBy": "Winnie Holzman",
+      "runTimeMinutes": 165,
+      "intermissions": 1,
+      "ageRecommendation": "8+",
+      "ticketPriceRangeUSD": {
+        "min": 89,
+        "max": 349
+      },
+      "tonyAwardsWon": 3,
+      "performancesPerWeek": 8,
+      "darkDay": "Mon",
+      "twoShowDays": [
+        "Wed",
+        "Sat"
+      ],
+      "scheduleWeekStart": "2026-08-24",
+      "runs": [
+        {
+          "runId": "bway-wicked-w35-01",
+          "DayOfTheWeek": "Tue",
+          "dayOfWeekFull": "Tuesday",
+          "performanceType": "Evening",
+          "localDate": "2026-08-25",
+          "localStartTime": "19:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-25T23:00:00.000Z",
+          "endTime": "2026-08-26T01:45:00.000Z",
+          "durationMinutes": 165,
+          "houseOpensAt": "2026-08-25T22:30:00.000Z",
+          "isTwoShowDay": false,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-wicked-w35-02",
+          "DayOfTheWeek": "Wed",
+          "dayOfWeekFull": "Wednesday",
+          "performanceType": "Matinee",
+          "localDate": "2026-08-26",
+          "localStartTime": "14:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-26T18:00:00.000Z",
+          "endTime": "2026-08-26T20:45:00.000Z",
+          "durationMinutes": 165,
+          "houseOpensAt": "2026-08-26T17:30:00.000Z",
+          "isTwoShowDay": true,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-wicked-w35-03",
+          "DayOfTheWeek": "Wed",
+          "dayOfWeekFull": "Wednesday",
+          "performanceType": "Evening",
+          "localDate": "2026-08-26",
+          "localStartTime": "19:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-26T23:00:00.000Z",
+          "endTime": "2026-08-27T01:45:00.000Z",
+          "durationMinutes": 165,
+          "houseOpensAt": "2026-08-26T22:30:00.000Z",
+          "isTwoShowDay": true,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-wicked-w35-04",
+          "DayOfTheWeek": "Thu",
+          "dayOfWeekFull": "Thursday",
+          "performanceType": "Evening",
+          "localDate": "2026-08-27",
+          "localStartTime": "19:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-27T23:00:00.000Z",
+          "endTime": "2026-08-28T01:45:00.000Z",
+          "durationMinutes": 165,
+          "houseOpensAt": "2026-08-27T22:30:00.000Z",
+          "isTwoShowDay": false,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-wicked-w35-05",
+          "DayOfTheWeek": "Fri",
+          "dayOfWeekFull": "Friday",
+          "performanceType": "Evening",
+          "localDate": "2026-08-28",
+          "localStartTime": "20:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-29T00:00:00.000Z",
+          "endTime": "2026-08-29T02:45:00.000Z",
+          "durationMinutes": 165,
+          "houseOpensAt": "2026-08-28T23:30:00.000Z",
+          "isTwoShowDay": false,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-wicked-w35-06",
+          "DayOfTheWeek": "Sat",
+          "dayOfWeekFull": "Saturday",
+          "performanceType": "Matinee",
+          "localDate": "2026-08-29",
+          "localStartTime": "14:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-29T18:00:00.000Z",
+          "endTime": "2026-08-29T20:45:00.000Z",
+          "durationMinutes": 165,
+          "houseOpensAt": "2026-08-29T17:30:00.000Z",
+          "isTwoShowDay": true,
+          "accessibility": {
+            "openCaptioned": true,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-wicked-w35-07",
+          "DayOfTheWeek": "Sat",
+          "dayOfWeekFull": "Saturday",
+          "performanceType": "Evening",
+          "localDate": "2026-08-29",
+          "localStartTime": "20:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-30T00:00:00.000Z",
+          "endTime": "2026-08-30T02:45:00.000Z",
+          "durationMinutes": 165,
+          "houseOpensAt": "2026-08-29T23:30:00.000Z",
+          "isTwoShowDay": true,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-wicked-w35-08",
+          "DayOfTheWeek": "Sun",
+          "dayOfWeekFull": "Sunday",
+          "performanceType": "Matinee",
+          "localDate": "2026-08-30",
+          "localStartTime": "15:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-30T19:00:00.000Z",
+          "endTime": "2026-08-30T21:45:00.000Z",
+          "durationMinutes": 165,
+          "houseOpensAt": "2026-08-30T18:30:00.000Z",
+          "isTwoShowDay": false,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        }
+      ]
+    },
+    {
+      "id": "bway-lion-king",
+      "title": "The Lion King",
+      "type": "Musical",
+      "genre": "Family Musical",
+      "theatre": {
+        "name": "Minskoff Theatre",
+        "address": "200 West 45th Street, New York, NY 10036",
+        "seatingCapacity": 1710
+      },
+      "city": "New York, NY",
+      "openingDate": "1997-11-13",
+      "firstPerformance": "1997-11-14T00:00:00.000Z",
+      "firstPerformanceThisWeek": "2026-08-25T23:00:00.000Z",
+      "lastPerformanceThisWeek": "2026-08-30T21:30:00.000Z",
+      "status": "Currently Running",
+      "director": "Julie Taymor",
+      "musicAndLyrics": "Elton John and Tim Rice",
+      "bookBy": "Roger Allers and Irene Mecchi",
+      "runTimeMinutes": 150,
+      "intermissions": 1,
+      "ageRecommendation": "6+",
+      "ticketPriceRangeUSD": {
+        "min": 99,
+        "max": 379
+      },
+      "tonyAwardsWon": 6,
+      "performancesPerWeek": 8,
+      "darkDay": "Mon",
+      "twoShowDays": [
+        "Thu",
+        "Sat"
+      ],
+      "scheduleWeekStart": "2026-08-24",
+      "runs": [
+        {
+          "runId": "bway-lion-king-w35-01",
+          "DayOfTheWeek": "Tue",
+          "dayOfWeekFull": "Tuesday",
+          "performanceType": "Evening",
+          "localDate": "2026-08-25",
+          "localStartTime": "19:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-25T23:00:00.000Z",
+          "endTime": "2026-08-26T01:30:00.000Z",
+          "durationMinutes": 150,
+          "houseOpensAt": "2026-08-25T22:30:00.000Z",
+          "isTwoShowDay": false,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-lion-king-w35-02",
+          "DayOfTheWeek": "Wed",
+          "dayOfWeekFull": "Wednesday",
+          "performanceType": "Evening",
+          "localDate": "2026-08-26",
+          "localStartTime": "19:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-26T23:00:00.000Z",
+          "endTime": "2026-08-27T01:30:00.000Z",
+          "durationMinutes": 150,
+          "houseOpensAt": "2026-08-26T22:30:00.000Z",
+          "isTwoShowDay": false,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-lion-king-w35-03",
+          "DayOfTheWeek": "Thu",
+          "dayOfWeekFull": "Thursday",
+          "performanceType": "Matinee",
+          "localDate": "2026-08-27",
+          "localStartTime": "14:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-27T18:00:00.000Z",
+          "endTime": "2026-08-27T20:30:00.000Z",
+          "durationMinutes": 150,
+          "houseOpensAt": "2026-08-27T17:30:00.000Z",
+          "isTwoShowDay": true,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-lion-king-w35-04",
+          "DayOfTheWeek": "Thu",
+          "dayOfWeekFull": "Thursday",
+          "performanceType": "Evening",
+          "localDate": "2026-08-27",
+          "localStartTime": "19:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-27T23:00:00.000Z",
+          "endTime": "2026-08-28T01:30:00.000Z",
+          "durationMinutes": 150,
+          "houseOpensAt": "2026-08-27T22:30:00.000Z",
+          "isTwoShowDay": true,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-lion-king-w35-05",
+          "DayOfTheWeek": "Fri",
+          "dayOfWeekFull": "Friday",
+          "performanceType": "Evening",
+          "localDate": "2026-08-28",
+          "localStartTime": "20:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-29T00:00:00.000Z",
+          "endTime": "2026-08-29T02:30:00.000Z",
+          "durationMinutes": 150,
+          "houseOpensAt": "2026-08-28T23:30:00.000Z",
+          "isTwoShowDay": false,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-lion-king-w35-06",
+          "DayOfTheWeek": "Sat",
+          "dayOfWeekFull": "Saturday",
+          "performanceType": "Matinee",
+          "localDate": "2026-08-29",
+          "localStartTime": "14:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-29T18:00:00.000Z",
+          "endTime": "2026-08-29T20:30:00.000Z",
+          "durationMinutes": 150,
+          "houseOpensAt": "2026-08-29T17:30:00.000Z",
+          "isTwoShowDay": true,
+          "accessibility": {
+            "openCaptioned": true,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-lion-king-w35-07",
+          "DayOfTheWeek": "Sat",
+          "dayOfWeekFull": "Saturday",
+          "performanceType": "Evening",
+          "localDate": "2026-08-29",
+          "localStartTime": "20:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-30T00:00:00.000Z",
+          "endTime": "2026-08-30T02:30:00.000Z",
+          "durationMinutes": 150,
+          "houseOpensAt": "2026-08-29T23:30:00.000Z",
+          "isTwoShowDay": true,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-lion-king-w35-08",
+          "DayOfTheWeek": "Sun",
+          "dayOfWeekFull": "Sunday",
+          "performanceType": "Matinee",
+          "localDate": "2026-08-30",
+          "localStartTime": "15:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-30T19:00:00.000Z",
+          "endTime": "2026-08-30T21:30:00.000Z",
+          "durationMinutes": 150,
+          "houseOpensAt": "2026-08-30T18:30:00.000Z",
+          "isTwoShowDay": false,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        }
+      ]
+    },
+    {
+      "id": "bway-hamilton",
+      "title": "Hamilton",
+      "type": "Musical",
+      "genre": "Hip-Hop Historical Musical",
+      "theatre": {
+        "name": "Richard Rodgers Theatre",
+        "address": "226 West 46th Street, New York, NY 10036",
+        "seatingCapacity": 1319
+      },
+      "city": "New York, NY",
+      "openingDate": "2015-08-06",
+      "firstPerformance": "2015-08-06T23:00:00.000Z",
+      "firstPerformanceThisWeek": "2026-08-25T23:00:00.000Z",
+      "lastPerformanceThisWeek": "2026-08-30T21:45:00.000Z",
+      "status": "Currently Running",
+      "director": "Thomas Kail",
+      "musicAndLyrics": "Lin-Manuel Miranda",
+      "bookBy": "Lin-Manuel Miranda",
+      "runTimeMinutes": 165,
+      "intermissions": 1,
+      "ageRecommendation": "10+",
+      "ticketPriceRangeUSD": {
+        "min": 149,
+        "max": 549
+      },
+      "tonyAwardsWon": 11,
+      "performancesPerWeek": 8,
+      "darkDay": "Mon",
+      "twoShowDays": [
+        "Wed",
+        "Sat"
+      ],
+      "scheduleWeekStart": "2026-08-24",
+      "runs": [
+        {
+          "runId": "bway-hamilton-w35-01",
+          "DayOfTheWeek": "Tue",
+          "dayOfWeekFull": "Tuesday",
+          "performanceType": "Evening",
+          "localDate": "2026-08-25",
+          "localStartTime": "19:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-25T23:00:00.000Z",
+          "endTime": "2026-08-26T01:45:00.000Z",
+          "durationMinutes": 165,
+          "houseOpensAt": "2026-08-25T22:30:00.000Z",
+          "isTwoShowDay": false,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-hamilton-w35-02",
+          "DayOfTheWeek": "Wed",
+          "dayOfWeekFull": "Wednesday",
+          "performanceType": "Matinee",
+          "localDate": "2026-08-26",
+          "localStartTime": "14:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-26T18:00:00.000Z",
+          "endTime": "2026-08-26T20:45:00.000Z",
+          "durationMinutes": 165,
+          "houseOpensAt": "2026-08-26T17:30:00.000Z",
+          "isTwoShowDay": true,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-hamilton-w35-03",
+          "DayOfTheWeek": "Wed",
+          "dayOfWeekFull": "Wednesday",
+          "performanceType": "Evening",
+          "localDate": "2026-08-26",
+          "localStartTime": "19:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-26T23:00:00.000Z",
+          "endTime": "2026-08-27T01:45:00.000Z",
+          "durationMinutes": 165,
+          "houseOpensAt": "2026-08-26T22:30:00.000Z",
+          "isTwoShowDay": true,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-hamilton-w35-04",
+          "DayOfTheWeek": "Thu",
+          "dayOfWeekFull": "Thursday",
+          "performanceType": "Evening",
+          "localDate": "2026-08-27",
+          "localStartTime": "19:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-27T23:00:00.000Z",
+          "endTime": "2026-08-28T01:45:00.000Z",
+          "durationMinutes": 165,
+          "houseOpensAt": "2026-08-27T22:30:00.000Z",
+          "isTwoShowDay": false,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-hamilton-w35-05",
+          "DayOfTheWeek": "Fri",
+          "dayOfWeekFull": "Friday",
+          "performanceType": "Evening",
+          "localDate": "2026-08-28",
+          "localStartTime": "20:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-29T00:00:00.000Z",
+          "endTime": "2026-08-29T02:45:00.000Z",
+          "durationMinutes": 165,
+          "houseOpensAt": "2026-08-28T23:30:00.000Z",
+          "isTwoShowDay": false,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-hamilton-w35-06",
+          "DayOfTheWeek": "Sat",
+          "dayOfWeekFull": "Saturday",
+          "performanceType": "Matinee",
+          "localDate": "2026-08-29",
+          "localStartTime": "14:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-29T18:00:00.000Z",
+          "endTime": "2026-08-29T20:45:00.000Z",
+          "durationMinutes": 165,
+          "houseOpensAt": "2026-08-29T17:30:00.000Z",
+          "isTwoShowDay": true,
+          "accessibility": {
+            "openCaptioned": true,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-hamilton-w35-07",
+          "DayOfTheWeek": "Sat",
+          "dayOfWeekFull": "Saturday",
+          "performanceType": "Evening",
+          "localDate": "2026-08-29",
+          "localStartTime": "20:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-30T00:00:00.000Z",
+          "endTime": "2026-08-30T02:45:00.000Z",
+          "durationMinutes": 165,
+          "houseOpensAt": "2026-08-29T23:30:00.000Z",
+          "isTwoShowDay": true,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-hamilton-w35-08",
+          "DayOfTheWeek": "Sun",
+          "dayOfWeekFull": "Sunday",
+          "performanceType": "Matinee",
+          "localDate": "2026-08-30",
+          "localStartTime": "15:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-30T19:00:00.000Z",
+          "endTime": "2026-08-30T21:45:00.000Z",
+          "durationMinutes": 165,
+          "houseOpensAt": "2026-08-30T18:30:00.000Z",
+          "isTwoShowDay": false,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        }
+      ]
+    },
+    {
+      "id": "bway-chicago",
+      "title": "Chicago",
+      "type": "Musical",
+      "genre": "Vaudeville Musical",
+      "theatre": {
+        "name": "Ambassador Theatre",
+        "address": "219 West 49th Street, New York, NY 10019",
+        "seatingCapacity": 1125
+      },
+      "city": "New York, NY",
+      "openingDate": "1996-11-14",
+      "firstPerformance": "1996-11-15T00:00:00.000Z",
+      "firstPerformanceThisWeek": "2026-08-24T23:00:00.000Z",
+      "lastPerformanceThisWeek": "2026-08-30T21:25:00.000Z",
+      "status": "Currently Running",
+      "director": "Walter Bobbie",
+      "musicAndLyrics": "John Kander and Fred Ebb",
+      "bookBy": "Fred Ebb and Bob Fosse",
+      "runTimeMinutes": 145,
+      "intermissions": 1,
+      "ageRecommendation": "13+",
+      "ticketPriceRangeUSD": {
+        "min": 69,
+        "max": 249
+      },
+      "tonyAwardsWon": 6,
+      "performancesPerWeek": 8,
+      "darkDay": "Tue",
+      "twoShowDays": [
+        "Wed",
+        "Sat"
+      ],
+      "scheduleWeekStart": "2026-08-24",
+      "runs": [
+        {
+          "runId": "bway-chicago-w35-01",
+          "DayOfTheWeek": "Mon",
+          "dayOfWeekFull": "Monday",
+          "performanceType": "Evening",
+          "localDate": "2026-08-24",
+          "localStartTime": "19:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-24T23:00:00.000Z",
+          "endTime": "2026-08-25T01:25:00.000Z",
+          "durationMinutes": 145,
+          "houseOpensAt": "2026-08-24T22:30:00.000Z",
+          "isTwoShowDay": false,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-chicago-w35-02",
+          "DayOfTheWeek": "Wed",
+          "dayOfWeekFull": "Wednesday",
+          "performanceType": "Matinee",
+          "localDate": "2026-08-26",
+          "localStartTime": "14:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-26T18:00:00.000Z",
+          "endTime": "2026-08-26T20:25:00.000Z",
+          "durationMinutes": 145,
+          "houseOpensAt": "2026-08-26T17:30:00.000Z",
+          "isTwoShowDay": true,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-chicago-w35-03",
+          "DayOfTheWeek": "Wed",
+          "dayOfWeekFull": "Wednesday",
+          "performanceType": "Evening",
+          "localDate": "2026-08-26",
+          "localStartTime": "20:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-27T00:00:00.000Z",
+          "endTime": "2026-08-27T02:25:00.000Z",
+          "durationMinutes": 145,
+          "houseOpensAt": "2026-08-26T23:30:00.000Z",
+          "isTwoShowDay": true,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-chicago-w35-04",
+          "DayOfTheWeek": "Thu",
+          "dayOfWeekFull": "Thursday",
+          "performanceType": "Evening",
+          "localDate": "2026-08-27",
+          "localStartTime": "19:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-27T23:00:00.000Z",
+          "endTime": "2026-08-28T01:25:00.000Z",
+          "durationMinutes": 145,
+          "houseOpensAt": "2026-08-27T22:30:00.000Z",
+          "isTwoShowDay": false,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-chicago-w35-05",
+          "DayOfTheWeek": "Fri",
+          "dayOfWeekFull": "Friday",
+          "performanceType": "Evening",
+          "localDate": "2026-08-28",
+          "localStartTime": "20:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-29T00:00:00.000Z",
+          "endTime": "2026-08-29T02:25:00.000Z",
+          "durationMinutes": 145,
+          "houseOpensAt": "2026-08-28T23:30:00.000Z",
+          "isTwoShowDay": false,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-chicago-w35-06",
+          "DayOfTheWeek": "Sat",
+          "dayOfWeekFull": "Saturday",
+          "performanceType": "Matinee",
+          "localDate": "2026-08-29",
+          "localStartTime": "14:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-29T18:00:00.000Z",
+          "endTime": "2026-08-29T20:25:00.000Z",
+          "durationMinutes": 145,
+          "houseOpensAt": "2026-08-29T17:30:00.000Z",
+          "isTwoShowDay": true,
+          "accessibility": {
+            "openCaptioned": true,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-chicago-w35-07",
+          "DayOfTheWeek": "Sat",
+          "dayOfWeekFull": "Saturday",
+          "performanceType": "Evening",
+          "localDate": "2026-08-29",
+          "localStartTime": "20:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-30T00:00:00.000Z",
+          "endTime": "2026-08-30T02:25:00.000Z",
+          "durationMinutes": 145,
+          "houseOpensAt": "2026-08-29T23:30:00.000Z",
+          "isTwoShowDay": true,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-chicago-w35-08",
+          "DayOfTheWeek": "Sun",
+          "dayOfWeekFull": "Sunday",
+          "performanceType": "Matinee",
+          "localDate": "2026-08-30",
+          "localStartTime": "15:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-30T19:00:00.000Z",
+          "endTime": "2026-08-30T21:25:00.000Z",
+          "durationMinutes": 145,
+          "houseOpensAt": "2026-08-30T18:30:00.000Z",
+          "isTwoShowDay": false,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        }
+      ]
+    },
+    {
+      "id": "bway-aladdin",
+      "title": "Aladdin",
+      "type": "Musical",
+      "genre": "Family Musical",
+      "theatre": {
+        "name": "New Amsterdam Theatre",
+        "address": "214 West 42nd Street, New York, NY 10036",
+        "seatingCapacity": 1702
+      },
+      "city": "New York, NY",
+      "openingDate": "2014-03-20",
+      "firstPerformance": "2014-03-20T23:00:00.000Z",
+      "firstPerformanceThisWeek": "2026-08-25T23:00:00.000Z",
+      "lastPerformanceThisWeek": "2026-08-30T21:30:00.000Z",
+      "status": "Currently Running",
+      "director": "Casey Nicholaw",
+      "musicAndLyrics": "Alan Menken, Howard Ashman, Tim Rice and Chad Beguelin",
+      "bookBy": "Chad Beguelin",
+      "runTimeMinutes": 150,
+      "intermissions": 1,
+      "ageRecommendation": "6+",
+      "ticketPriceRangeUSD": {
+        "min": 79,
+        "max": 299
+      },
+      "tonyAwardsWon": 1,
+      "performancesPerWeek": 8,
+      "darkDay": "Mon",
+      "twoShowDays": [
+        "Thu",
+        "Sat"
+      ],
+      "scheduleWeekStart": "2026-08-24",
+      "runs": [
+        {
+          "runId": "bway-aladdin-w35-01",
+          "DayOfTheWeek": "Tue",
+          "dayOfWeekFull": "Tuesday",
+          "performanceType": "Evening",
+          "localDate": "2026-08-25",
+          "localStartTime": "19:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-25T23:00:00.000Z",
+          "endTime": "2026-08-26T01:30:00.000Z",
+          "durationMinutes": 150,
+          "houseOpensAt": "2026-08-25T22:30:00.000Z",
+          "isTwoShowDay": false,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-aladdin-w35-02",
+          "DayOfTheWeek": "Wed",
+          "dayOfWeekFull": "Wednesday",
+          "performanceType": "Evening",
+          "localDate": "2026-08-26",
+          "localStartTime": "19:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-26T23:00:00.000Z",
+          "endTime": "2026-08-27T01:30:00.000Z",
+          "durationMinutes": 150,
+          "houseOpensAt": "2026-08-26T22:30:00.000Z",
+          "isTwoShowDay": false,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-aladdin-w35-03",
+          "DayOfTheWeek": "Thu",
+          "dayOfWeekFull": "Thursday",
+          "performanceType": "Matinee",
+          "localDate": "2026-08-27",
+          "localStartTime": "14:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-27T18:00:00.000Z",
+          "endTime": "2026-08-27T20:30:00.000Z",
+          "durationMinutes": 150,
+          "houseOpensAt": "2026-08-27T17:30:00.000Z",
+          "isTwoShowDay": true,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-aladdin-w35-04",
+          "DayOfTheWeek": "Thu",
+          "dayOfWeekFull": "Thursday",
+          "performanceType": "Evening",
+          "localDate": "2026-08-27",
+          "localStartTime": "19:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-27T23:00:00.000Z",
+          "endTime": "2026-08-28T01:30:00.000Z",
+          "durationMinutes": 150,
+          "houseOpensAt": "2026-08-27T22:30:00.000Z",
+          "isTwoShowDay": true,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-aladdin-w35-05",
+          "DayOfTheWeek": "Fri",
+          "dayOfWeekFull": "Friday",
+          "performanceType": "Evening",
+          "localDate": "2026-08-28",
+          "localStartTime": "20:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-29T00:00:00.000Z",
+          "endTime": "2026-08-29T02:30:00.000Z",
+          "durationMinutes": 150,
+          "houseOpensAt": "2026-08-28T23:30:00.000Z",
+          "isTwoShowDay": false,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-aladdin-w35-06",
+          "DayOfTheWeek": "Sat",
+          "dayOfWeekFull": "Saturday",
+          "performanceType": "Matinee",
+          "localDate": "2026-08-29",
+          "localStartTime": "14:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-29T18:00:00.000Z",
+          "endTime": "2026-08-29T20:30:00.000Z",
+          "durationMinutes": 150,
+          "houseOpensAt": "2026-08-29T17:30:00.000Z",
+          "isTwoShowDay": true,
+          "accessibility": {
+            "openCaptioned": true,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-aladdin-w35-07",
+          "DayOfTheWeek": "Sat",
+          "dayOfWeekFull": "Saturday",
+          "performanceType": "Evening",
+          "localDate": "2026-08-29",
+          "localStartTime": "20:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-30T00:00:00.000Z",
+          "endTime": "2026-08-30T02:30:00.000Z",
+          "durationMinutes": 150,
+          "houseOpensAt": "2026-08-29T23:30:00.000Z",
+          "isTwoShowDay": true,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-aladdin-w35-08",
+          "DayOfTheWeek": "Sun",
+          "dayOfWeekFull": "Sunday",
+          "performanceType": "Matinee",
+          "localDate": "2026-08-30",
+          "localStartTime": "15:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-30T19:00:00.000Z",
+          "endTime": "2026-08-30T21:30:00.000Z",
+          "durationMinutes": 150,
+          "houseOpensAt": "2026-08-30T18:30:00.000Z",
+          "isTwoShowDay": false,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        }
+      ]
+    },
+    {
+      "id": "bway-mj",
+      "title": "MJ The Musical",
+      "type": "Musical",
+      "genre": "Jukebox Biographical Musical",
+      "theatre": {
+        "name": "Neil Simon Theatre",
+        "address": "250 West 52nd Street, New York, NY 10019",
+        "seatingCapacity": 1467
+      },
+      "city": "New York, NY",
+      "openingDate": "2022-02-01",
+      "firstPerformance": "2022-02-02T00:00:00.000Z",
+      "firstPerformanceThisWeek": "2026-08-25T23:00:00.000Z",
+      "lastPerformanceThisWeek": "2026-08-30T21:30:00.000Z",
+      "status": "Currently Running",
+      "director": "Christopher Wheeldon",
+      "musicAndLyrics": "Michael Jackson (catalogue)",
+      "bookBy": "Lynn Nottage",
+      "runTimeMinutes": 150,
+      "intermissions": 1,
+      "ageRecommendation": "10+",
+      "ticketPriceRangeUSD": {
+        "min": 89,
+        "max": 329
+      },
+      "tonyAwardsWon": 4,
+      "performancesPerWeek": 8,
+      "darkDay": "Mon",
+      "twoShowDays": [
+        "Wed",
+        "Sat"
+      ],
+      "scheduleWeekStart": "2026-08-24",
+      "runs": [
+        {
+          "runId": "bway-mj-w35-01",
+          "DayOfTheWeek": "Tue",
+          "dayOfWeekFull": "Tuesday",
+          "performanceType": "Evening",
+          "localDate": "2026-08-25",
+          "localStartTime": "19:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-25T23:00:00.000Z",
+          "endTime": "2026-08-26T01:30:00.000Z",
+          "durationMinutes": 150,
+          "houseOpensAt": "2026-08-25T22:30:00.000Z",
+          "isTwoShowDay": false,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-mj-w35-02",
+          "DayOfTheWeek": "Wed",
+          "dayOfWeekFull": "Wednesday",
+          "performanceType": "Matinee",
+          "localDate": "2026-08-26",
+          "localStartTime": "14:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-26T18:00:00.000Z",
+          "endTime": "2026-08-26T20:30:00.000Z",
+          "durationMinutes": 150,
+          "houseOpensAt": "2026-08-26T17:30:00.000Z",
+          "isTwoShowDay": true,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-mj-w35-03",
+          "DayOfTheWeek": "Wed",
+          "dayOfWeekFull": "Wednesday",
+          "performanceType": "Evening",
+          "localDate": "2026-08-26",
+          "localStartTime": "19:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-26T23:00:00.000Z",
+          "endTime": "2026-08-27T01:30:00.000Z",
+          "durationMinutes": 150,
+          "houseOpensAt": "2026-08-26T22:30:00.000Z",
+          "isTwoShowDay": true,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-mj-w35-04",
+          "DayOfTheWeek": "Thu",
+          "dayOfWeekFull": "Thursday",
+          "performanceType": "Evening",
+          "localDate": "2026-08-27",
+          "localStartTime": "19:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-27T23:00:00.000Z",
+          "endTime": "2026-08-28T01:30:00.000Z",
+          "durationMinutes": 150,
+          "houseOpensAt": "2026-08-27T22:30:00.000Z",
+          "isTwoShowDay": false,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-mj-w35-05",
+          "DayOfTheWeek": "Fri",
+          "dayOfWeekFull": "Friday",
+          "performanceType": "Evening",
+          "localDate": "2026-08-28",
+          "localStartTime": "20:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-29T00:00:00.000Z",
+          "endTime": "2026-08-29T02:30:00.000Z",
+          "durationMinutes": 150,
+          "houseOpensAt": "2026-08-28T23:30:00.000Z",
+          "isTwoShowDay": false,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-mj-w35-06",
+          "DayOfTheWeek": "Sat",
+          "dayOfWeekFull": "Saturday",
+          "performanceType": "Matinee",
+          "localDate": "2026-08-29",
+          "localStartTime": "14:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-29T18:00:00.000Z",
+          "endTime": "2026-08-29T20:30:00.000Z",
+          "durationMinutes": 150,
+          "houseOpensAt": "2026-08-29T17:30:00.000Z",
+          "isTwoShowDay": true,
+          "accessibility": {
+            "openCaptioned": true,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-mj-w35-07",
+          "DayOfTheWeek": "Sat",
+          "dayOfWeekFull": "Saturday",
+          "performanceType": "Evening",
+          "localDate": "2026-08-29",
+          "localStartTime": "20:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-30T00:00:00.000Z",
+          "endTime": "2026-08-30T02:30:00.000Z",
+          "durationMinutes": 150,
+          "houseOpensAt": "2026-08-29T23:30:00.000Z",
+          "isTwoShowDay": true,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-mj-w35-08",
+          "DayOfTheWeek": "Sun",
+          "dayOfWeekFull": "Sunday",
+          "performanceType": "Matinee",
+          "localDate": "2026-08-30",
+          "localStartTime": "15:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-30T19:00:00.000Z",
+          "endTime": "2026-08-30T21:30:00.000Z",
+          "durationMinutes": 150,
+          "houseOpensAt": "2026-08-30T18:30:00.000Z",
+          "isTwoShowDay": false,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        }
+      ]
+    },
+    {
+      "id": "bway-and-juliet",
+      "title": "& Juliet",
+      "type": "Musical",
+      "genre": "Jukebox Musical Comedy",
+      "theatre": {
+        "name": "Stephen Sondheim Theatre",
+        "address": "124 West 43rd Street, New York, NY 10036",
+        "seatingCapacity": 1055
+      },
+      "city": "New York, NY",
+      "openingDate": "2022-11-17",
+      "firstPerformance": "2022-11-18T00:00:00.000Z",
+      "firstPerformanceThisWeek": "2026-08-25T23:00:00.000Z",
+      "lastPerformanceThisWeek": "2026-08-31T01:00:00.000Z",
+      "status": "Currently Running",
+      "director": "Luke Sheppard",
+      "musicAndLyrics": "Max Martin (catalogue)",
+      "bookBy": "David West Read",
+      "runTimeMinutes": 150,
+      "intermissions": 1,
+      "ageRecommendation": "10+",
+      "ticketPriceRangeUSD": {
+        "min": 79,
+        "max": 289
+      },
+      "tonyAwardsWon": 0,
+      "performancesPerWeek": 8,
+      "darkDay": "Mon",
+      "twoShowDays": [
+        "Sat",
+        "Sun"
+      ],
+      "scheduleWeekStart": "2026-08-24",
+      "runs": [
+        {
+          "runId": "bway-and-juliet-w35-01",
+          "DayOfTheWeek": "Tue",
+          "dayOfWeekFull": "Tuesday",
+          "performanceType": "Evening",
+          "localDate": "2026-08-25",
+          "localStartTime": "19:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-25T23:00:00.000Z",
+          "endTime": "2026-08-26T01:30:00.000Z",
+          "durationMinutes": 150,
+          "houseOpensAt": "2026-08-25T22:30:00.000Z",
+          "isTwoShowDay": false,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-and-juliet-w35-02",
+          "DayOfTheWeek": "Wed",
+          "dayOfWeekFull": "Wednesday",
+          "performanceType": "Evening",
+          "localDate": "2026-08-26",
+          "localStartTime": "19:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-26T23:00:00.000Z",
+          "endTime": "2026-08-27T01:30:00.000Z",
+          "durationMinutes": 150,
+          "houseOpensAt": "2026-08-26T22:30:00.000Z",
+          "isTwoShowDay": false,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-and-juliet-w35-03",
+          "DayOfTheWeek": "Thu",
+          "dayOfWeekFull": "Thursday",
+          "performanceType": "Evening",
+          "localDate": "2026-08-27",
+          "localStartTime": "19:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-27T23:00:00.000Z",
+          "endTime": "2026-08-28T01:30:00.000Z",
+          "durationMinutes": 150,
+          "houseOpensAt": "2026-08-27T22:30:00.000Z",
+          "isTwoShowDay": false,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-and-juliet-w35-04",
+          "DayOfTheWeek": "Fri",
+          "dayOfWeekFull": "Friday",
+          "performanceType": "Evening",
+          "localDate": "2026-08-28",
+          "localStartTime": "20:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-29T00:00:00.000Z",
+          "endTime": "2026-08-29T02:30:00.000Z",
+          "durationMinutes": 150,
+          "houseOpensAt": "2026-08-28T23:30:00.000Z",
+          "isTwoShowDay": false,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-and-juliet-w35-05",
+          "DayOfTheWeek": "Sat",
+          "dayOfWeekFull": "Saturday",
+          "performanceType": "Matinee",
+          "localDate": "2026-08-29",
+          "localStartTime": "14:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-29T18:00:00.000Z",
+          "endTime": "2026-08-29T20:30:00.000Z",
+          "durationMinutes": 150,
+          "houseOpensAt": "2026-08-29T17:30:00.000Z",
+          "isTwoShowDay": true,
+          "accessibility": {
+            "openCaptioned": true,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-and-juliet-w35-06",
+          "DayOfTheWeek": "Sat",
+          "dayOfWeekFull": "Saturday",
+          "performanceType": "Evening",
+          "localDate": "2026-08-29",
+          "localStartTime": "20:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-30T00:00:00.000Z",
+          "endTime": "2026-08-30T02:30:00.000Z",
+          "durationMinutes": 150,
+          "houseOpensAt": "2026-08-29T23:30:00.000Z",
+          "isTwoShowDay": true,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-and-juliet-w35-07",
+          "DayOfTheWeek": "Sun",
+          "dayOfWeekFull": "Sunday",
+          "performanceType": "Matinee",
+          "localDate": "2026-08-30",
+          "localStartTime": "13:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-30T17:00:00.000Z",
+          "endTime": "2026-08-30T19:30:00.000Z",
+          "durationMinutes": 150,
+          "houseOpensAt": "2026-08-30T16:30:00.000Z",
+          "isTwoShowDay": true,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-and-juliet-w35-08",
+          "DayOfTheWeek": "Sun",
+          "dayOfWeekFull": "Sunday",
+          "performanceType": "Evening",
+          "localDate": "2026-08-30",
+          "localStartTime": "18:30",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-30T22:30:00.000Z",
+          "endTime": "2026-08-31T01:00:00.000Z",
+          "durationMinutes": 150,
+          "houseOpensAt": "2026-08-30T22:00:00.000Z",
+          "isTwoShowDay": true,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        }
+      ]
+    },
+    {
+      "id": "bway-schmigadoon",
+      "title": "Schmigadoon!",
+      "type": "Musical",
+      "genre": "Musical Comedy",
+      "theatre": {
+        "name": "Nederlander Theatre",
+        "address": "208 West 41st Street, New York, NY 10036",
+        "seatingCapacity": 1232
+      },
+      "city": "New York, NY",
+      "openingDate": "2026-04-16",
+      "firstPerformance": "2026-04-16T23:00:00.000Z",
+      "firstPerformanceThisWeek": "2026-08-25T23:00:00.000Z",
+      "lastPerformanceThisWeek": "2026-08-30T21:15:00.000Z",
+      "status": "Currently Running",
+      "director": "Christopher Gattelli",
+      "musicAndLyrics": "Cinco Paul",
+      "bookBy": "Cinco Paul",
+      "runTimeMinutes": 135,
+      "intermissions": 1,
+      "ageRecommendation": "10+",
+      "ticketPriceRangeUSD": {
+        "min": 79,
+        "max": 299
+      },
+      "tonyAwardsWon": 4,
+      "performancesPerWeek": 8,
+      "darkDay": "Mon",
+      "twoShowDays": [
+        "Wed",
+        "Sat"
+      ],
+      "scheduleWeekStart": "2026-08-24",
+      "runs": [
+        {
+          "runId": "bway-schmigadoon-w35-01",
+          "DayOfTheWeek": "Tue",
+          "dayOfWeekFull": "Tuesday",
+          "performanceType": "Evening",
+          "localDate": "2026-08-25",
+          "localStartTime": "19:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-25T23:00:00.000Z",
+          "endTime": "2026-08-26T01:15:00.000Z",
+          "durationMinutes": 135,
+          "houseOpensAt": "2026-08-25T22:30:00.000Z",
+          "isTwoShowDay": false,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-schmigadoon-w35-02",
+          "DayOfTheWeek": "Wed",
+          "dayOfWeekFull": "Wednesday",
+          "performanceType": "Matinee",
+          "localDate": "2026-08-26",
+          "localStartTime": "14:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-26T18:00:00.000Z",
+          "endTime": "2026-08-26T20:15:00.000Z",
+          "durationMinutes": 135,
+          "houseOpensAt": "2026-08-26T17:30:00.000Z",
+          "isTwoShowDay": true,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-schmigadoon-w35-03",
+          "DayOfTheWeek": "Wed",
+          "dayOfWeekFull": "Wednesday",
+          "performanceType": "Evening",
+          "localDate": "2026-08-26",
+          "localStartTime": "19:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-26T23:00:00.000Z",
+          "endTime": "2026-08-27T01:15:00.000Z",
+          "durationMinutes": 135,
+          "houseOpensAt": "2026-08-26T22:30:00.000Z",
+          "isTwoShowDay": true,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-schmigadoon-w35-04",
+          "DayOfTheWeek": "Thu",
+          "dayOfWeekFull": "Thursday",
+          "performanceType": "Evening",
+          "localDate": "2026-08-27",
+          "localStartTime": "19:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-27T23:00:00.000Z",
+          "endTime": "2026-08-28T01:15:00.000Z",
+          "durationMinutes": 135,
+          "houseOpensAt": "2026-08-27T22:30:00.000Z",
+          "isTwoShowDay": false,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-schmigadoon-w35-05",
+          "DayOfTheWeek": "Fri",
+          "dayOfWeekFull": "Friday",
+          "performanceType": "Evening",
+          "localDate": "2026-08-28",
+          "localStartTime": "20:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-29T00:00:00.000Z",
+          "endTime": "2026-08-29T02:15:00.000Z",
+          "durationMinutes": 135,
+          "houseOpensAt": "2026-08-28T23:30:00.000Z",
+          "isTwoShowDay": false,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-schmigadoon-w35-06",
+          "DayOfTheWeek": "Sat",
+          "dayOfWeekFull": "Saturday",
+          "performanceType": "Matinee",
+          "localDate": "2026-08-29",
+          "localStartTime": "14:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-29T18:00:00.000Z",
+          "endTime": "2026-08-29T20:15:00.000Z",
+          "durationMinutes": 135,
+          "houseOpensAt": "2026-08-29T17:30:00.000Z",
+          "isTwoShowDay": true,
+          "accessibility": {
+            "openCaptioned": true,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-schmigadoon-w35-07",
+          "DayOfTheWeek": "Sat",
+          "dayOfWeekFull": "Saturday",
+          "performanceType": "Evening",
+          "localDate": "2026-08-29",
+          "localStartTime": "20:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-30T00:00:00.000Z",
+          "endTime": "2026-08-30T02:15:00.000Z",
+          "durationMinutes": 135,
+          "houseOpensAt": "2026-08-29T23:30:00.000Z",
+          "isTwoShowDay": true,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-schmigadoon-w35-08",
+          "DayOfTheWeek": "Sun",
+          "dayOfWeekFull": "Sunday",
+          "performanceType": "Matinee",
+          "localDate": "2026-08-30",
+          "localStartTime": "15:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-30T19:00:00.000Z",
+          "endTime": "2026-08-30T21:15:00.000Z",
+          "durationMinutes": 135,
+          "houseOpensAt": "2026-08-30T18:30:00.000Z",
+          "isTwoShowDay": false,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        }
+      ]
+    },
+    {
+      "id": "bway-lost-boys",
+      "title": "The Lost Boys, A New Musical",
+      "type": "Musical",
+      "genre": "Rock Musical",
+      "theatre": {
+        "name": "Palace Theatre",
+        "address": "160 West 47th Street, New York, NY 10036",
+        "seatingCapacity": 1743
+      },
+      "city": "New York, NY",
+      "openingDate": "2026-04-23",
+      "firstPerformance": "2026-04-23T23:00:00.000Z",
+      "firstPerformanceThisWeek": "2026-08-25T23:00:00.000Z",
+      "lastPerformanceThisWeek": "2026-08-30T21:25:00.000Z",
+      "status": "Currently Running",
+      "director": "Michael Arden",
+      "musicAndLyrics": "The Rescues",
+      "bookBy": "David Hornsby and Chris Hoch",
+      "runTimeMinutes": 145,
+      "intermissions": 1,
+      "ageRecommendation": "10+",
+      "ticketPriceRangeUSD": {
+        "min": 89,
+        "max": 319
+      },
+      "tonyAwardsWon": 4,
+      "performancesPerWeek": 8,
+      "darkDay": "Mon",
+      "twoShowDays": [
+        "Thu",
+        "Sat"
+      ],
+      "scheduleWeekStart": "2026-08-24",
+      "runs": [
+        {
+          "runId": "bway-lost-boys-w35-01",
+          "DayOfTheWeek": "Tue",
+          "dayOfWeekFull": "Tuesday",
+          "performanceType": "Evening",
+          "localDate": "2026-08-25",
+          "localStartTime": "19:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-25T23:00:00.000Z",
+          "endTime": "2026-08-26T01:25:00.000Z",
+          "durationMinutes": 145,
+          "houseOpensAt": "2026-08-25T22:30:00.000Z",
+          "isTwoShowDay": false,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-lost-boys-w35-02",
+          "DayOfTheWeek": "Wed",
+          "dayOfWeekFull": "Wednesday",
+          "performanceType": "Evening",
+          "localDate": "2026-08-26",
+          "localStartTime": "19:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-26T23:00:00.000Z",
+          "endTime": "2026-08-27T01:25:00.000Z",
+          "durationMinutes": 145,
+          "houseOpensAt": "2026-08-26T22:30:00.000Z",
+          "isTwoShowDay": false,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-lost-boys-w35-03",
+          "DayOfTheWeek": "Thu",
+          "dayOfWeekFull": "Thursday",
+          "performanceType": "Matinee",
+          "localDate": "2026-08-27",
+          "localStartTime": "14:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-27T18:00:00.000Z",
+          "endTime": "2026-08-27T20:25:00.000Z",
+          "durationMinutes": 145,
+          "houseOpensAt": "2026-08-27T17:30:00.000Z",
+          "isTwoShowDay": true,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-lost-boys-w35-04",
+          "DayOfTheWeek": "Thu",
+          "dayOfWeekFull": "Thursday",
+          "performanceType": "Evening",
+          "localDate": "2026-08-27",
+          "localStartTime": "19:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-27T23:00:00.000Z",
+          "endTime": "2026-08-28T01:25:00.000Z",
+          "durationMinutes": 145,
+          "houseOpensAt": "2026-08-27T22:30:00.000Z",
+          "isTwoShowDay": true,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-lost-boys-w35-05",
+          "DayOfTheWeek": "Fri",
+          "dayOfWeekFull": "Friday",
+          "performanceType": "Evening",
+          "localDate": "2026-08-28",
+          "localStartTime": "20:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-29T00:00:00.000Z",
+          "endTime": "2026-08-29T02:25:00.000Z",
+          "durationMinutes": 145,
+          "houseOpensAt": "2026-08-28T23:30:00.000Z",
+          "isTwoShowDay": false,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-lost-boys-w35-06",
+          "DayOfTheWeek": "Sat",
+          "dayOfWeekFull": "Saturday",
+          "performanceType": "Matinee",
+          "localDate": "2026-08-29",
+          "localStartTime": "14:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-29T18:00:00.000Z",
+          "endTime": "2026-08-29T20:25:00.000Z",
+          "durationMinutes": 145,
+          "houseOpensAt": "2026-08-29T17:30:00.000Z",
+          "isTwoShowDay": true,
+          "accessibility": {
+            "openCaptioned": true,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-lost-boys-w35-07",
+          "DayOfTheWeek": "Sat",
+          "dayOfWeekFull": "Saturday",
+          "performanceType": "Evening",
+          "localDate": "2026-08-29",
+          "localStartTime": "20:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-30T00:00:00.000Z",
+          "endTime": "2026-08-30T02:25:00.000Z",
+          "durationMinutes": 145,
+          "houseOpensAt": "2026-08-29T23:30:00.000Z",
+          "isTwoShowDay": true,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-lost-boys-w35-08",
+          "DayOfTheWeek": "Sun",
+          "dayOfWeekFull": "Sunday",
+          "performanceType": "Matinee",
+          "localDate": "2026-08-30",
+          "localStartTime": "15:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-30T19:00:00.000Z",
+          "endTime": "2026-08-30T21:25:00.000Z",
+          "durationMinutes": 145,
+          "houseOpensAt": "2026-08-30T18:30:00.000Z",
+          "isTwoShowDay": false,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        }
+      ]
+    },
+    {
+      "id": "bway-rocky-horror",
+      "title": "The Rocky Horror Show",
+      "type": "Musical",
+      "genre": "Rock Musical",
+      "theatre": {
+        "name": "Studio 54",
+        "address": "254 West 54th Street, New York, NY 10019",
+        "seatingCapacity": 1006
+      },
+      "city": "New York, NY",
+      "openingDate": "2026-03-19",
+      "firstPerformance": "2026-03-19T23:00:00.000Z",
+      "firstPerformanceThisWeek": "2026-08-25T23:00:00.000Z",
+      "lastPerformanceThisWeek": "2026-08-31T00:30:00.000Z",
+      "status": "Currently Running",
+      "director": "Sam Pinkleton",
+      "musicAndLyrics": "Richard O'Brien",
+      "bookBy": "Richard O'Brien",
+      "runTimeMinutes": 120,
+      "intermissions": 1,
+      "ageRecommendation": "16+",
+      "ticketPriceRangeUSD": {
+        "min": 69,
+        "max": 279
+      },
+      "tonyAwardsWon": 0,
+      "performancesPerWeek": 8,
+      "darkDay": "Mon",
+      "twoShowDays": [
+        "Sat",
+        "Sun"
+      ],
+      "scheduleWeekStart": "2026-08-24",
+      "runs": [
+        {
+          "runId": "bway-rocky-horror-w35-01",
+          "DayOfTheWeek": "Tue",
+          "dayOfWeekFull": "Tuesday",
+          "performanceType": "Evening",
+          "localDate": "2026-08-25",
+          "localStartTime": "19:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-25T23:00:00.000Z",
+          "endTime": "2026-08-26T01:00:00.000Z",
+          "durationMinutes": 120,
+          "houseOpensAt": "2026-08-25T22:30:00.000Z",
+          "isTwoShowDay": false,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-rocky-horror-w35-02",
+          "DayOfTheWeek": "Wed",
+          "dayOfWeekFull": "Wednesday",
+          "performanceType": "Evening",
+          "localDate": "2026-08-26",
+          "localStartTime": "19:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-26T23:00:00.000Z",
+          "endTime": "2026-08-27T01:00:00.000Z",
+          "durationMinutes": 120,
+          "houseOpensAt": "2026-08-26T22:30:00.000Z",
+          "isTwoShowDay": false,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-rocky-horror-w35-03",
+          "DayOfTheWeek": "Thu",
+          "dayOfWeekFull": "Thursday",
+          "performanceType": "Evening",
+          "localDate": "2026-08-27",
+          "localStartTime": "19:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-27T23:00:00.000Z",
+          "endTime": "2026-08-28T01:00:00.000Z",
+          "durationMinutes": 120,
+          "houseOpensAt": "2026-08-27T22:30:00.000Z",
+          "isTwoShowDay": false,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-rocky-horror-w35-04",
+          "DayOfTheWeek": "Fri",
+          "dayOfWeekFull": "Friday",
+          "performanceType": "Evening",
+          "localDate": "2026-08-28",
+          "localStartTime": "20:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-29T00:00:00.000Z",
+          "endTime": "2026-08-29T02:00:00.000Z",
+          "durationMinutes": 120,
+          "houseOpensAt": "2026-08-28T23:30:00.000Z",
+          "isTwoShowDay": false,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-rocky-horror-w35-05",
+          "DayOfTheWeek": "Sat",
+          "dayOfWeekFull": "Saturday",
+          "performanceType": "Matinee",
+          "localDate": "2026-08-29",
+          "localStartTime": "14:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-29T18:00:00.000Z",
+          "endTime": "2026-08-29T20:00:00.000Z",
+          "durationMinutes": 120,
+          "houseOpensAt": "2026-08-29T17:30:00.000Z",
+          "isTwoShowDay": true,
+          "accessibility": {
+            "openCaptioned": true,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-rocky-horror-w35-06",
+          "DayOfTheWeek": "Sat",
+          "dayOfWeekFull": "Saturday",
+          "performanceType": "Evening",
+          "localDate": "2026-08-29",
+          "localStartTime": "20:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-30T00:00:00.000Z",
+          "endTime": "2026-08-30T02:00:00.000Z",
+          "durationMinutes": 120,
+          "houseOpensAt": "2026-08-29T23:30:00.000Z",
+          "isTwoShowDay": true,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-rocky-horror-w35-07",
+          "DayOfTheWeek": "Sun",
+          "dayOfWeekFull": "Sunday",
+          "performanceType": "Matinee",
+          "localDate": "2026-08-30",
+          "localStartTime": "13:00",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-30T17:00:00.000Z",
+          "endTime": "2026-08-30T19:00:00.000Z",
+          "durationMinutes": 120,
+          "houseOpensAt": "2026-08-30T16:30:00.000Z",
+          "isTwoShowDay": true,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        },
+        {
+          "runId": "bway-rocky-horror-w35-08",
+          "DayOfTheWeek": "Sun",
+          "dayOfWeekFull": "Sunday",
+          "performanceType": "Evening",
+          "localDate": "2026-08-30",
+          "localStartTime": "18:30",
+          "timeZone": "America/New_York",
+          "utcOffset": "-04:00",
+          "startTime": "2026-08-30T22:30:00.000Z",
+          "endTime": "2026-08-31T00:30:00.000Z",
+          "durationMinutes": 120,
+          "houseOpensAt": "2026-08-30T22:00:00.000Z",
+          "isTwoShowDay": true,
+          "accessibility": {
+            "openCaptioned": false,
+            "audioDescribed": false,
+            "asl": false
+          },
+          "ticketsAvailable": true
+        }
+      ]
+    }
+  ]
+}
